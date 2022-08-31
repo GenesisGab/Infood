@@ -41,3 +41,10 @@ Poder aplicar todos nuestros conocimientos obtenidos durante estos periodos, de 
 
 
 ## 💡 Descripción de las configuraciones del proyecto
+
+
+Nuestro proyecto contiene un index, es la página por defecto dentro de los directorios de los servidores de cualquier sitio web que se carga siempre que se solicita un dominio y no se especifica el nombre de un archivo específico. En este caso el propio servidor web es el que se encarga de buscar el archivo index. Se complementa junto con los archivos css que se utilizan para ordenar las instrucciones referentes a la apariencia de un sitio y presentar los contenidos de una página de forma atractiva. Y por ultimo los archivos de JavaScript es el lenguaje de programación que debemos usar para añadir características interactivas a nuestro proyecto, (por ejemplo, juegos, eventos que ocurren cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos, animación, y mucho más)
+
+
+
+------------
