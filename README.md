@@ -52,4 +52,7 @@ Nuestro proyecto contiene un index, es la página por defecto dentro de los dire
 
 
 
-## 🏆 Link de la página web del proyecto
+## 🔗 Link de la página web del proyecto
+
+
+https://genesisgab.github.io/Infood/
