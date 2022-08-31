@@ -10,7 +10,7 @@
 
 - ####  Comunicadores Gráficos
 
-	➔ Adriana Alejandra Velásquez Anlue
+	➔ Adriana Alejandra Velásquez Anleu
 
 	➔ Marilis Abigail Escobar Estrada
 
