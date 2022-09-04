@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/** VARIABLES ***/
+
+:root{
+
+    /* VARIABLES DE COLOR */
+    --grisClaro: #E8E7E3;
+    --grisOscuro: #959988;
+    --verde: #406E3F;
+    --verdeClaro: #263D29;
+    --verdeOscuro: #0B1D11;
+
+    --colorTexto: #263D29;
+
+    /* TAMAÑO DEL TEXTO */
+    --parrafo: 1.6rem;
+    --h3: 2rem;
+
+    /* FUENTES */
+    --titulos: 'Fredoka One', cursive;
+    --subtitulos: 'Glory', sans-serif;
+    --parrafos: 'Quicksand', sans-serif;
+}
+
+#root {
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+    background-color: #959988;
+}
