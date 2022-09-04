@@ -1,0 +1,59 @@
+#headerBanner{
+    background-color: white;
+    height: 48.8rem;
+
+    object-fit: cover;
+}
+.lineas{
+    width: 100%;
+    height: 100%; 
+}
+
+header{
+    padding: 0rem 3rem;
+}
+
+.logoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.2rem;
+    margin-bottom: 5.5rem;
+}
+
+.nav{
+    list-style: none;
+    height: 5rem;
+    border-bottom: 4px solid var(--verdeClaro);
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+.hijoOption{
+    width: 13.6rem;
+    height: 3.6rem;
+    cursor: pointer;
+
+    margin: 0rem 7rem;
+    font-family: var(--titulos);
+    font-size: 2rem;
+    font-weight: 400;
+    
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    list-style: none;   
+}
+.hijoOption:hover{
+    color: rgb(30, 128, 30);
+}
+
+.flecha{
+    display: flex;
+    justify-content: end;
+    margin-right: 16.5rem;
+    cursor: pointer;
+}
+
