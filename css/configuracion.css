@@ -38,3 +38,8 @@ html{
     margin: auto;
     background-color: var(--grisClaro);
 }
+
+p{
+    font-size: var(--h3);
+    color: var(--verdeClaro);
+}

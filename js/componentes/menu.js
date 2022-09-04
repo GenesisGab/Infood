@@ -22,7 +22,8 @@ export function menu (){
                 '<a><img class="imgFlecha" src="./img/flecha.png"></a>'+
             '</div>'+
             
-          '</header>';
+          '</header>'+
+          '<section id="menu"></section>';
        
 }
 menu();
