@@ -3,6 +3,7 @@
 import { menu } from "./componentes/menu.js";
 import { cuadrosBromat } from "./componentes/bromatologia.js";
 import { piramide } from "./componentes/piramide.js";
+import { estadistica } from "./componentes/estadistica.js";
 
 /* DESPLIEGUE DE DATOS BROMATOLOGÍA */
 import { item } from "./componentes/bromatologia.js";
