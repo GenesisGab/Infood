@@ -1,13 +1,15 @@
 .Grafica{
+
     width: 113.3rem;
     height: 83.1rem;
+    
     border-top: 5px solid var(--verde);
     border-bottom: 5px solid var(--verde);
     padding: 0rem 2rem;
     margin: auto;
     padding-top: 9.9rem;
     padding-bottom: 14.986rem;
-    /* margin-bottom: 17rem; */
+   
     margin-top: 2.7rem;
 }
 .Grafica h3{
@@ -23,11 +25,16 @@
     font-weight: 400;
     text-align: center;
 }
+.hijoGrafica img{
+    width: 58.804rem;
+}
+
 .padreGrafica{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .textoGrafica{
@@ -38,4 +45,5 @@
 
 .parrafoGrafica{
     font-size: var(--parrafo);
+    font-family: var(--parrafos);
 }

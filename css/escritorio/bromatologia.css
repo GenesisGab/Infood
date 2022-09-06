@@ -1,9 +1,10 @@
 .bromatologia{
-    width: 91.4rem;
-    height: 25.8rem;
+    max-width: 91.4rem;
+    max-height: 25.8rem;
     text-align: center;
     margin: auto;
 }
+
 .text{
     margin-top: 8.3rem;
     margin-bottom: 2.5rem;
@@ -12,19 +13,18 @@
     font-weight: 400;
 }
 
-/********************/
-
-
+/*********DISEÑO DE LA GALERIA DE BROMATOLOGIA***********/
 #galeria {
-    /* max-width: 100%; */
-    /* padding-bottom: 2rem; */
     padding: 0rem 7rem;
+    
     margin-top: 7.8rem;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
 }
 
 
@@ -35,19 +35,16 @@
 
     background-color: rgba(149, 153, 136, 0.41);
     margin-bottom: 10rem;
-
+   
     box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
     -webkit-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
     -moz-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
 
 }
 
-
 .cj_img img {
     width: 25.1rem;
-   
     object-fit: cover;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .descripcion {

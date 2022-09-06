@@ -1,17 +1,5 @@
 import { bromatologia } from "../data/bromatologia.js";
 
-
-export function item(el_producto){
-let contenido =
-    '<div class="cj_img">' +
-        '<img src="'+ bromatologia[el_producto].img +'">'+
-    '</div>'+
-    '<h2 class="titulo">'+ bromatologia[el_producto].titulo + '</h2>'+
-    '<p class="descripcion">'+ bromatologia[el_producto].descripcion +'</p>';
-
-return contenido;
-}
-
 export function cuadrosBromat (){
     let root = document.querySelector("#menu");
   
@@ -27,3 +15,15 @@ export function cuadrosBromat (){
        
 }
 cuadrosBromat();
+
+export function item(el_producto){
+let contenido =
+    '<div class="cj_img">' +
+        '<img src="'+ bromatologia[el_producto].img +'">'+
+    '</div>'+
+    '<h2 class="titulo">'+ bromatologia[el_producto].titulo + '</h2>'+
+    '<p class="descripcion">'+ bromatologia[el_producto].descripcion +'</p>';
+
+return contenido;
+}
+

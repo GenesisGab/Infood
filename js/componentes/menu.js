@@ -5,11 +5,12 @@ export function menu (){
     root.innerHTML = 
     '<div id="headerBanner">'+
             '<img class="lineas" src="./img/lineas.png">'+
-        '</div>'+
-        '<header>'+
+    '</div>'+
 
-            '<div class="logoHeader"><img src="./img/logo.png"></div>'+
-            
+        '<header>'+
+            '<div class="logoHeader">'+
+                '<img src="./img/logo.png">'+
+            '</div>'+
     
             '<ul class="nav">'+
                 '<li><a class="hijoOption">Menú</a></li>'+
@@ -19,11 +20,14 @@ export function menu (){
             '</ul>'+
 
             '<div class="flecha">'+
-                '<a><img class="imgFlecha" src="./img/flecha.png"></a>'+
+                '<a><img class="imgFlecha"></a>'+
+                '<a><img class="imgFlecha"></a>'+
+                '<a><img class="imgFlecha"></a>'+
+                '<a><img id="flechaH" class="imgFlecha" src="./img/flecha.png"></a>'+
             '</div>'+
             
           '</header>'+
-          '<section id="menu"></section>';
+    '<section id="menu"></section>';
        
 }
 menu();
