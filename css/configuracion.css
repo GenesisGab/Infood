@@ -38,3 +38,10 @@ html{
     margin: auto;
     background-color: var(--grisClaro);
 }
+
+#footer {
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+    background-color: #959988;
+}
