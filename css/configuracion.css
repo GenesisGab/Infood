@@ -36,4 +36,5 @@ html{
     max-width: 37.5rem;
     height: auto;
     margin: auto;
+    background-color: var(--grisClaro);
 }
