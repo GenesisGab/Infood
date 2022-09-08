@@ -1,2 +1,2 @@
 /* CONEXIONES */
-import { footer } from "./componentes/footer";
+import { footer } from "./componentes/footer.js";
