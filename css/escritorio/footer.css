@@ -1,0 +1,26 @@
+
+.padreIntegrantes{
+    /* width: 100%; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding-top: 10.5rem;
+    /* width: 100%; */
+    padding-bottom: 13.8rem;
+}
+
+.padreIntegrantes div{
+    width: 35rem;
+    height: 29rem;
+    background-color: black;
+    margin: 0rem 2rem;
+}
+
+#footer{
+    background-color: #959988;
+    /* width: 100%; */
+    height: auto;
+}

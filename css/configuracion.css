@@ -36,6 +36,7 @@ html{
     max-width: 37.5rem;
     height: auto;
     margin: auto;
+
     background-color: var(--grisClaro);
 }
 
@@ -43,5 +44,17 @@ html{
     max-width: 37.5rem;
     height: auto;
     margin: auto;
-    background-color: #959988;
+
+    background-color: var(--grisClaro);
+}
+
+
+
+p{
+    font-size: var(--h3);
+    color: var(--verdeClaro);
+}
+
+footer h1{
+    background-color: #0B1D11;
 }
