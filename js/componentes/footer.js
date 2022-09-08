@@ -5,7 +5,7 @@ export function footer (){
     
     /*PRIMERA SECCIÓN INTEGRANTES */
     '<section class="integrantes">'+
-    
+        
     '</section>'+
     
     /*SEGUNDA SECCION INFORMACION EXTRA */
