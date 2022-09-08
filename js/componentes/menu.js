@@ -4,7 +4,7 @@ export function menu (){
    //CREACION DE LOS DIV PARA EL PANEL
     root.innerHTML = 
     '<div id="headerBanner">'+
-            '<img class="lineas" src="./img/lineas.png">'+
+            '<img class="lineas" src="./img/INFOOD BN 1.png">'+
     '</div>'+
 
         '<header>'+
