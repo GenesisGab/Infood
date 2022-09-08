@@ -1,0 +1,41 @@
+.caja1{
+    position: absolute;
+    width: 370px;
+    height: 175px;
+    left: 145px;
+    top: 3810px;
+    text-align: center;
+    
+    background: #959988;
+    }
+    
+    .caja2{
+    position: absolute;
+    width: 370px;
+    height: 175px;
+    left: 551px;
+    top: 3810px;
+    text-align: center;
+        
+    background: #959988;
+    }
+    
+    .caja3{
+    position: absolute;
+    width: 370px;
+    height: 175px;
+    left: 951px;
+    top: 3810px;
+    text-align: center;
+    
+    background: #959988;
+    }
+    
+    h1{
+    font-family: 'Fredoka', sans-serif; 
+    }
+    
+    p{
+    font-family: 'Quicksand', sans-serif;
+    }
+    
