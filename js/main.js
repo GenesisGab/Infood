@@ -1,7 +1,5 @@
 /* CONEXIONES */
-<<<<<<< HEAD
 import { footer } from "./componentes/footer.js";
-=======
 
 import { menu } from "./componentes/menu.js";
 import { cuadrosBromat } from "./componentes/bromatologia.js";
@@ -31,4 +29,3 @@ function cargarGaleria(){
 }
 
 cargarGaleria();
->>>>>>> origin/Genesis
