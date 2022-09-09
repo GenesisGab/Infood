@@ -1,7 +1,7 @@
-.Grafica{
 
-    width: 113.3rem;
-    height: 83.1rem;
+.Grafica{
+    max-width: 113.3rem;
+    max-height: 83.1rem;
     
     border-top: 5px solid var(--verde);
     border-bottom: 5px solid var(--verde);
@@ -9,8 +9,11 @@
     margin: auto;
     padding-top: 9.9rem;
     padding-bottom: 14.986rem;
-   
     margin-top: 2.7rem;
+    margin-bottom: 17rem;
+}
+body{
+    background-color: var(--grisClaro);
 }
 .Grafica h3{
     font-family: var(--subtitulos);
