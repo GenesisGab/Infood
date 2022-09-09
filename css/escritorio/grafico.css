@@ -1,0 +1,52 @@
+
+.Grafica{
+    max-width: 113.3rem;
+    max-height: 83.1rem;
+    
+    border-top: 5px solid var(--verde);
+    border-bottom: 5px solid var(--verde);
+    padding: 0rem 2rem;
+    margin: auto;
+    padding-top: 9.9rem;
+    padding-bottom: 14.986rem;
+    margin-top: 2.7rem;
+    margin-bottom: 17rem;
+}
+body{
+    background-color: var(--grisClaro);
+}
+.Grafica h3{
+    font-family: var(--subtitulos);
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-bottom: 6.9rem;
+}
+.hijoGrafica h2{
+    font-family: var(--titulos);
+    color: var(--colorTexto);
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.hijoGrafica img{
+    width: 58.804rem;
+}
+
+.padreGrafica{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textoGrafica{
+    width: 35.4rem;
+    height: 30.8rem;
+    margin-left: 6rem;
+}
+
+.parrafoGrafica{
+    font-size: var(--parrafo);
+    font-family: var(--parrafos);
+}

@@ -45,4 +45,10 @@ html{
     height: auto;
     margin: auto;
     background-color: #959988;
+    background-color: var(--grisClaro);
+}
+
+p{
+    font-size: var(--h3);
+    color: var(--verdeClaro);
 }

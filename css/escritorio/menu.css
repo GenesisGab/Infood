@@ -1,0 +1,99 @@
+#headerBanner{
+    background-color: white;
+    height: 30rem;
+}
+
+header{
+    padding: 0rem 3rem;
+}
+
+.lineas{
+    width: 100%;
+    height: 100%; 
+    object-fit:cover;
+}
+
+.logoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin-top: 6.2rem;
+    margin-bottom: 5.5rem;
+}
+
+.nav{
+    list-style: none;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid var(--verdeClaro);
+
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+}
+
+.hijoOption{
+    width: 13.8rem;
+    height: 3.6rem;
+    cursor: pointer;
+    font-family: var(--titulos);
+    font-size: 2rem;
+    font-weight: 400;
+    /* background-color: aqua; */
+    margin-right: 3.3rem; 
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    list-style: none;   
+    /* background-color: black; */
+}
+
+.hijoOption:hover {
+    color: rgb(26, 107, 26);
+    transition: 0.3s;
+}
+
+.flecha{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha a{
+    cursor: pointer;
+    width: 13.8rem;
+    height: 3.6rem;
+    margin-right: 3.3rem;
+    margin-bottom: 2rem;
+}
+
+/************************/
+
+.navbar ul li {
+   
+    display: inline-block;
+    position: relative;
+
+}
+
+.navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: var(--verdeClaro);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+    width: 80%;
+}
