@@ -56,7 +56,10 @@ header{
     color: rgb(26, 107, 26);
     transition: 0.3s;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .flecha{
     text-align: center;
     

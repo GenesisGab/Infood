@@ -5,7 +5,7 @@ export function footer (){
 
     /*PRIMERA SECCIÓN INTEGRANTES */
    
-    '<section class="integrantes" data-aos="fade-up" data-aos-duration="1000">'+
+    '<section class="integrantes">'+
        '<div class="caja1">'+
             '<h1>Comunicadores graficos</h1>'+
             '<p>Adriana Alejandra <br> Velásquez Anleú</p>'+
@@ -32,7 +32,7 @@ export function footer (){
     '<div class="ventana" id="vent">'+
 '<h1 class="ventana_titulo">INFOOD</h1></div>'+
 
-    '<div class="padreFooter" data-aos="fade-up" data-aos-duration="1000">'+
+    '<div class="padreFooter">'+
         '<div class="ventana_fondo">'+
         '<img  class="ventana_img" src="./img/alimentos.png">'+
             '<h1 class="ventana_titulo5">LOREM</h1>'+

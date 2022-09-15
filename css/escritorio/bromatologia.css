@@ -41,7 +41,11 @@
     -moz-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
 
 }
-
+.item:hover{
+    background-color:#406e3f69;
+    cursor: pointer;
+    transition: 0.5s;
+}
 .cj_img img {
     width: 25.1rem;
     height: 23.5rem;

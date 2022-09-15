@@ -14,20 +14,13 @@ export function menu (){
 
         '<nav class="navbar">'+
             '<ul class="nav">'+
-                '<li><a class="hijoOption">Inicio</a></li>'+
+                '<li><a href="" class="hijoOption">Inicio</a></li>'+
                 '<li><a class="hijoOption">Menú</a></li>'+
                 '<li><a class="hijoOption">Dietas</a></li>'+
                 '<li><a class="hijoOption">Planes</a></li>'+
             '</ul>'+
         '</nav>'+
-
-            // '<div class="flecha">'+
-            //     '<a><img class="imgFlecha"></a>'+
-            //     '<a><img class="imgFlecha"></a>'+
-            //     '<a><img class="imgFlecha"></a>'+
-            //     '<a><img id="flechaH" class="imgFlecha" src="./img/flecha.png"></a>'+
-            // '</div>'+
-            
+        
           '</header>'+
     '<section id="menu"></section>';
        
