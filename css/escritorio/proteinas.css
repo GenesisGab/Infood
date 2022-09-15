@@ -3,5 +3,30 @@
 
 /*************GENESIS***********/
 
+.padreProteinas{
+    width: 113.2rem;
+    height: 80.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-top: 5px solid var(--verde);
+    margin-top: 9rem;
+    border-bottom: 5px solid var(--verde);
+}
+.subVdProteina{
+    width: 40.2rem;
+    height: 7.8rem;
+    margin-bottom: 3.1rem;
+    text-align: center;
+}
+.subVdProteina h3{
+    font-size: 3.2rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--colorTexto);
+    
+}
 
 /*************NATALY*****************/

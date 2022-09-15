@@ -161,5 +161,24 @@
 /**CSS ESQUEMA**/
 
 /***CSS VIDEO***/
+@media only screen and (max-width:37.5rem) {
 
+    .padreProteinas{
+        width: 29rem;
+        height: 27.2rem;
+        margin-top: 5.5rem;
+    }
+    .subVdProteina{
+        width: 21.9rem;
+        height: auto;
+        margin-bottom: 2.5rem;
+    }
+    .vdProteinas{
+        width: 21.3rem;
+        height: 11.6rem;
+    }
+    .subVdProteina h3{
+        font-size: 2rem;
+    }
+}
 /**CSS INFORMACION*/
