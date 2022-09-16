@@ -5,7 +5,7 @@ let root = document.querySelector("#piramide");
     root.innerHTML = 
     '<div class="boxPadre">'+
     '<div class="piramides" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">'+
-            '<img class="imgPiramide" src="./img/piramide.png">'+
+            '<img class="imgPiramide" src="./img/piramide2.jpeg">'+
         '</div>'+
         '<div class="contenidoPiramide">'+
             '<h2 class="tituloPiramide">Pirámide de los alimentos</h2>'+
