@@ -1,32 +1,11 @@
 /* CONEXIONES */
 import { footer } from "./componentes/footer.js";
-
 import { menu } from "./componentes/menu.js";
 import { cuadrosBromat } from "./componentes/bromatologia.js";
 import { piramide } from "./componentes/piramide.js";
 import { estadistica } from "./componentes/estadistica.js";
+import { cargarGaleria } from "./componentes/bromatologia.js";
 import { ActivarDesactivar } from "./componentes/proteinas.js";
-
-/* DESPLIEGUE DE DATOS BROMATOLOGÍA */
-import { item } from "./componentes/bromatologia.js";
-import {bromatologia} from "./data/bromatologia.js";
-
-let root = document.querySelector("#broma");
-
-
-function cargarGaleria(){
-
-    let galeria = document.querySelector("#galeria");
-
-    bromatologia.forEach(function(elemento,indice){
-
-        let div = document.createElement("div");
-        div.setAttribute("class","item");
-        div.innerHTML = item(indice);
-
-        galeria.appendChild(div);
-    })
-
-}
-
-cargarGaleria();
+import { ActivarDesactivar2 } from "./componentes/carbohidratos.js";
+import { ActivarDesactivar3 } from "./componentes/lipidos.js";
+import { ActivarDesactivar4 } from "./componentes/vitaminas.js";

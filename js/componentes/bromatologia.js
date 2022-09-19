@@ -27,3 +27,21 @@ let contenido =
 return contenido;
 }
 
+
+/* CARGAR CUADROS BROMATOLOGIA */
+let root = document.querySelector("#broma");
+export function cargarGaleria(){
+
+    let galeria = document.querySelector("#galeria");
+
+    bromatologia.forEach(function(elemento,indice){
+
+        let div = document.createElement("div");
+        div.setAttribute("class","item");
+        div.setAttribute("id","tarjeta"+indice);
+        div.innerHTML = item(indice);
+        
+        galeria.appendChild(div);
+    })
+}
+cargarGaleria();

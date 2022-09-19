@@ -1,4 +1,4 @@
-var activarse = document.getElementById("galeria");
+var activarse = document.getElementById("tarjeta0");
 
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar() {    

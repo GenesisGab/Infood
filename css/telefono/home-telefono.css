@@ -1,3 +1,17 @@
+/********************ELIMINAR CUANDO YA SE ESTE TRABAJANDO**************************/
+@media only screen and (max-width:37.5rem) {
+.avisoImg{
+    margin-top: 6.2rem;
+    margin-bottom: 5.5rem;
+}
+
+.avisoImg h2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+}
+/********************************************************************/
+
 /******* CONFIGURACION DEL MENU PARA EL TELEFONO ********/
 
 @media only screen and (max-width:37.5rem) {
@@ -160,6 +174,7 @@
 
 /**CSS ESQUEMA**/
 
+
 /***CSS VIDEO***/
 @media only screen and (max-width:37.5rem) {
 
@@ -181,4 +196,5 @@
         font-size: 2rem;
     }
 }
+
 /**CSS INFORMACION*/
