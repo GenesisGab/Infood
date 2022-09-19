@@ -22,7 +22,16 @@ export function ActivarDesactivar() {
 
         /* GENESIS */
         '<section>'+
-
+            '<div class="padreProteinas">'+
+                '<div class="subVdProteina">'+
+                    '<h3>Video Funciones de la proteina en el organismo</h3>'+
+                '</div>'+
+                
+                '<video class="vdProteinas" width="784" height="458" controls>'+
+                    // '<source src="./img/Portada.mp4" type="video/mp4">'+
+                    'Tu navegador no es compatible con videos HTML5'+
+                '</video>'+
+            '</div>'+
         '</section>'+
             
         /* NATALI */

@@ -2,10 +2,21 @@
 
 @media only screen and (max-width:37.5rem) {
     #headerBanner{
-        height: 20.2rem;
+        /* height: 20.2rem; */
+        height: 10rem;
     }
+    .tituloBanner{
+        width: 35%;
+        height: 8rem;
+        margin-top: 2rem;
+    }
+    .tituloBanner h1{
+        font-size: 2rem;
+    }
+
     .logoHeader img{
-        width: 25rem;
+        /* width: 25rem; */
+        width: 20rem;
     }
     .logoHeader{
         margin-top: 2.3rem;
@@ -16,17 +27,6 @@
         max-width: 4.2rem;
         max-height: 1.8rem;
         padding-left: 2rem;
-    }
-
-    .flecha{
-        /* margin-right: 6rem; */
-        /* margin-right: 50rem; */
-        position: relative;
-        /* padding-left: 4rem; */
-    }
-
-    .flecha img{
-        width: 3rem;
     }
 
 }
@@ -161,5 +161,24 @@
 /**CSS ESQUEMA**/
 
 /***CSS VIDEO***/
+@media only screen and (max-width:37.5rem) {
 
+    .padreProteinas{
+        width: 29rem;
+        height: 27.2rem;
+        margin-top: 5.5rem;
+    }
+    .subVdProteina{
+        width: 21.9rem;
+        height: auto;
+        margin-bottom: 2.5rem;
+    }
+    .vdProteinas{
+        width: 21.3rem;
+        height: 11.6rem;
+    }
+    .subVdProteina h3{
+        font-size: 2rem;
+    }
+}
 /**CSS INFORMACION*/
