@@ -44,3 +44,7 @@ export function ActivarDesactivar() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar);
+
+
+
+/**************MOSTRAR DATA DE PROTEÍNAS***************/
