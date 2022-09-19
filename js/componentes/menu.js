@@ -4,7 +4,8 @@ export function menu (){
    //CREACION DE LOS DIV PARA EL PANEL
     root.innerHTML = 
     '<div id="headerBanner">'+
-        '<img class="lineas" src="./img/zyro-image.png">'+
+        '<img class="lineas" src="./img/bannerBlanco.png">'+
+        '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
     '</div>'+
 
         '<header>'+

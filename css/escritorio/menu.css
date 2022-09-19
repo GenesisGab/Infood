@@ -1,10 +1,31 @@
 #headerBanner{
     background-color: white;
     height: 30rem;
+
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
 }
 
 header{
     padding: 0rem 3rem;
+}
+.tituloBanner{
+    position: absolute;
+    width: 35%;
+    height: 27rem;
+    margin-top: 3rem;
+    /* background-color: rgba(0, 255, 255, 0.276); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tituloBanner h1{
+    font-size: 6rem;
+    font-family: var(--titulos);
+    color: var(--verdeOscuro);
 }
 
 .lineas{

@@ -5,6 +5,15 @@
         /* height: 20.2rem; */
         height: 10rem;
     }
+    .tituloBanner{
+        width: 35%;
+        height: 8rem;
+        margin-top: 2rem;
+    }
+    .tituloBanner h1{
+        font-size: 2rem;
+    }
+
     .logoHeader img{
         /* width: 25rem; */
         width: 20rem;
