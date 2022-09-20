@@ -102,3 +102,71 @@
 }
 
 /*************NATALY*****************/
+.padreTexProt{
+    width: 113.2rem;
+    height: 56.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+    border-bottom: 5px solid var(--verde);
+    margin-bottom: 11.5rem;
+}
+.padreTexProt p{
+    width: 49.6rem;
+    height: auto;
+    margin-right: 7.8rem;
+    font-size: var(--parrafo);
+}
+.imgProteText{
+    width: 41.8rem;
+    height: 39.2rem;
+    background-color: aliceblue;
+}
+
+/***********GRAFICA PROTEINAS**********/
+.estadisticaProte{
+    width: 115rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 18.1rem;
+    border-top: 5px solid var(--verdeClaro);
+    padding-top: 15rem;
+}
+.TituloContenido{
+    font-size: 4rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--verdeClaro);
+    margin-bottom: 5rem;
+}
+.hijoimg{
+    display: flex;
+    justify-content: center;
+
+}
+.graficProt{
+    width: 100rem;
+}
+.abajoGrafic{
+    
+    display: flex;
+}
+.abajoGrafic h3{
+    width: 8.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--titulos);
+    font-weight: 400;
+}
+.abajoGrafic img{
+    width: 95rem;
+    margin-right: 3rem;
+}

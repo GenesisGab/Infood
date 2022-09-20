@@ -23,6 +23,17 @@ export function ActivarDesactivar() {
 
         /* GENESIS */
         '<section>'+
+            '<div class="estadisticaProte">'+
+                '<h1 class="TituloContenido">Contenido de proteínas</h1>'+
+                '<div class="hijoimg">'+
+                    '<img class="graficProt" src="./img/graficaProte.svg">'+
+                '</div>'+
+                '<div class="abajoGrafic">'+
+                    '<h3>Alimento <br>Porcion</h3>'+
+                    '<img src="./img/graphics.png">'+
+                '</div>'+
+            '</div>'+
+
             '<div class="padreProteinas">'+
                 '<div class="subVdProteina">'+
                     '<h3>Video Funciones de la proteina en el organismo</h3>'+
@@ -37,7 +48,14 @@ export function ActivarDesactivar() {
             
         /* NATALI */
         '<section>'+
-            
+            '<div class="padreTexProt">'+
+                '<div class="imgProteText">'+
+                    '<img>'+
+                '</div>'+
+                '<div>'+
+                    '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took  .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum is simply dummy text of the printing and typesetting i.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took  .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum is simply dummy text of the printing and typesetting i</p>'+
+                '</div>'+
+            '</div>'+
         '</section>';
     }
 
@@ -50,7 +68,7 @@ activarse.addEventListener('click', ActivarDesactivar);
 
 /**************MOSTRAR DATA DE PROTEÍNAS***************/
 
-import { proteinass } from "../data/obejtoProteina.js";
+import {proteinass} from "../data/objetosProteinas.js";
 
 let bt_userCredit2 = document.querySelector('#tarjeta0');
 export function crearCarts(){
