@@ -88,13 +88,14 @@ export function crearCarts(){
             '<div class="hijoProte">'+
                 '<div class="cajaProte"><h2>'+user1.titulo+'</h2></div>'+
                 '<div class="subHijoProte">'+
-                    '<div><img src="'+user1.img+'"></div>'+
+                    '<div><img class="imgProteina" src="'+user1.img+'"></div>'+
                     '<p> Porción: '+user1.porcion+'</p>'+
                     '<p> Energía: '+user1.Energía+'</p>'+
                     '<p> Calorías: '+user1.calorias+'</p>'+
                     '<p> Proteínas: '+user1.porcion+'</p>'+
                     '<p> Carbohidratos: '+user1.carbohidratos+'</p>'+
                     '<p> Lípidos: '+user1.lipidos+'</p>'+
+                    '<div class="imgGrafics"><img src="'+user1.grafica+'"></div>'+
                 '</div>'+
             '</div>';  
 

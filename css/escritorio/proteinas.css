@@ -35,13 +35,12 @@
 
 .subHijoProte{
     width: 29.5rem;
-    height: 47.6rem;
+    height: 64.1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-right: 0.5rem;
     background-color: rgba(149, 153, 136, 0.41);
-    /* margin-top: 4.2rem; */
     
     box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
     -webkit-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
@@ -54,7 +53,7 @@
     font-weight: 400;
     
 }
-.hijoProte img{
+.imgProteina{
     object-fit: cover;
     height: 25rem;
     width: 29.5rem;
@@ -73,6 +72,15 @@
     color: var(--verdeClaro);
 }
 
+.imgGrafics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.7rem;
+}
+.imgGrafics img{
+    object-fit: cover;
+}
 /*************GENESIS***********/
 
 .padreProteinas{

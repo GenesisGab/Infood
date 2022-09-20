@@ -8,6 +8,7 @@ export let proteinass = [
         Proteinas: '20.85g',
         carbohidratos: '0',
         lipidos: '2.1%',
+        grafica: './img/Group 1.png',
     },
     {
         titulo: 'Huevo de gallina',
@@ -18,6 +19,7 @@ export let proteinass = [
         Proteinas: '20.5g',
         carbohidratos: '2.79g',
         lipidos: '2.9%',
+        grafica: './img/Group 2.png',
     },
     
     {
@@ -29,6 +31,7 @@ export let proteinass = [
         Proteinas: '35.10g',
         carbohidratos: '52.19g',
         lipidos: '1.8%',
+        grafica: './img/Group 2.png',
     },
     
     {
@@ -40,6 +43,7 @@ export let proteinass = [
         Proteinas: '22.03g',
         carbohidratos: '0',
         lipidos: '59%',
+        grafica: './img/Group 2.png',
     },
     
     {
@@ -51,6 +55,7 @@ export let proteinass = [
         Proteinas: '18.70g',
         carbohidratos: '0.53g',
         lipidos: '0.9%',
+        grafica: './img/Group 1.png',
     },
     
     {
@@ -62,6 +67,7 @@ export let proteinass = [
         Proteinas: '24.35g',
         carbohidratos: '1.91g',
         lipidos: '21%',
+        grafica: './img/Group 1.png',
     },
     
     {
@@ -73,6 +79,7 @@ export let proteinass = [
         Proteinas: '186g',
         carbohidratos: '0',
         lipidos: '8%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -84,6 +91,7 @@ export let proteinass = [
         Proteinas: '19.93g',
         carbohidratos: '0',
         lipidos: '12%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -95,6 +103,7 @@ export let proteinass = [
         Proteinas: '20.85g',
         carbohidratos: '66.17g',
         lipidos: '0.6%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -106,6 +115,7 @@ export let proteinass = [
         Proteinas: '23.36g',
         carbohidratos: '60.27g',
         lipidos: '0',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -117,6 +127,7 @@ export let proteinass = [
         Proteinas: '22.7g',
         carbohidratos: '61.6g',
         lipidos: '0',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -128,6 +139,7 @@ export let proteinass = [
         Proteinas: '24.55g',
         carbohidratos: '60.37g',
         lipidos: '0.2%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -139,6 +151,7 @@ export let proteinass = [
         Proteinas: '21.94g',
         carbohidratos: '19.94g',
         lipidos: '9%',
+        grafica: './img/Group 1.png',
     },
 
 
@@ -151,6 +164,7 @@ export let proteinass = [
         Proteinas: '2g',
         carbohidratos: '8.53g',
         lipidos: '3.2%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -162,6 +176,7 @@ export let proteinass = [
         Proteinas: '2.82g',
         carbohidratos: '6.64g',
         lipidos: '0.1%',
+        grafica: './img/Group 1.png',
     },
 
     {
@@ -173,6 +188,7 @@ export let proteinass = [
         Proteinas: '14.32g',
         carbohidratos: '12.27g',
         lipidos: '67.2%',
+        grafica: './img/Group 1.png',
     }
     
 ];
