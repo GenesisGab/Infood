@@ -1,7 +1,7 @@
 export let proteinass = [
     {
         titulo: 'Pollo, pechuga cruda',
-        img: '../img/pollo.png',
+        img: './img/pollo.png',
         porcion: '100g',
         Energía: '195Kcal',
         calorias: '172cal',

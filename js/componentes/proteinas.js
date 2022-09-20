@@ -50,10 +50,12 @@ export function ActivarDesactivar() {
         '<section>'+
             '<div class="padreTexProt">'+
                 '<div class="imgProteText">'+
-                    '<img>'+
+                    '<img src="./img/carnesimg.png">'+
                 '</div>'+
                 '<div>'+
-                    '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took  .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum is simply dummy text of the printing and typesetting i.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took  .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum is simply dummy text of the printing and typesetting i</p>'+
+                    '<p>Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida. Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida.'+
+                    'Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida.'+
+                    'Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida.</p>'+
                 '</div>'+
             '</div>'+
         '</section>';

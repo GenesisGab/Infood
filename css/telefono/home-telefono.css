@@ -174,9 +174,49 @@
 
 /**CSS ESQUEMA**/
 
+@media only screen and (max-width:37.5rem) {
+
+.cajaProte{
+    width: 15rem;
+    height: 8.8rem;
+    margin-bottom: 1rem;
+}
+
+.cajaProte h2{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.subHijoProte{
+    width: 15rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    background-color: rgba(149, 153, 136, 0.41);
+}
+.subHijoProte p{
+    font-size: 1.2rem;
+}
+.hijoProte img{
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.tituloProteina{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+}
+
+
 
 /***CSS VIDEO***/
 @media only screen and (max-width:37.5rem) {
+
 
     .padreProteinas{
         width: 29rem;
@@ -193,7 +233,7 @@
         height: 11.6rem;
     }
     .subVdProteina h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -204,7 +244,6 @@
         width: 31.4rem;
         height: 65rem;
         margin-bottom: 7rem;
-
     }
     .padreTexProt p{
         width: 28.4rem;
@@ -217,7 +256,13 @@
         width: 31.2rem;
         margin-top: 3rem;
         height: 18.8rem;
-        background-color: aliceblue;
+        object-fit: cover;
+    }
+
+    .imgProteText img{
+        object-fit: cover;
+        width: 31.2rem;
+        height: 18.8rem;
     }
 
     /********GRAFICA DE PROTEINAS***********/

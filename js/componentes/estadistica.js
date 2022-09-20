@@ -4,7 +4,6 @@ let root = document.querySelector("#estadistica");
    //CREACION DE LOS DIV PARA EL PANEL
     root.innerHTML = 
     '<div class="Grafica">'+
-            '<h3>Descripición de grafica, explicación de cada parte</h3>'+
             '<div class="padreGrafica" data-aos="fade-up" data-aos-duration="1000">'+
                 '<div class="hijoGrafica">'+
                     '<h2>Gráfica</h2>'+

@@ -119,6 +119,7 @@
     height: auto;
     margin-right: 7.8rem;
     font-size: var(--parrafo);
+    text-align: justify;
 }
 .imgProteText{
     width: 41.8rem;
