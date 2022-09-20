@@ -11,7 +11,7 @@ export let proteinass = [
     },
     {
         titulo: 'Huevo de gallina',
-        img: '../img/huevo.png',
+        img: './img/huevo.png',
         porcion: '63g',
         Energía: '52Kcal',
         calorias: '345cal',
@@ -22,7 +22,7 @@ export let proteinass = [
     
     {
         titulo: 'Leche de vaca',
-        img: '../img/leche.png',
+        img: './img/leche.png',
         porcion: '250ml',
         Energía: '122Kcal',
         calorias: '358cal',
@@ -33,7 +33,7 @@ export let proteinass = [
     
     {
         titulo: 'Res, carne magra cruda',
-        img: '../img/carnes.png',
+        img: './img/carnes.png',
         porcion: '100g',
         Energía: '126Kcal',
         calorias: '126cal',
@@ -44,7 +44,7 @@ export let proteinass = [
     
     {
         titulo: 'Jamon de pavo',
-        img: '../img/jamon.png',
+        img: './img/jamon.png',
         porcion: '100g',
         Energía: '30Kcal',
         calorias: '147cal',
@@ -55,7 +55,7 @@ export let proteinass = [
     
     {
         titulo: 'Queso blanco',
-        img: '../img/queso.png',
+        img: './img/queso.png',
         porcion: '15ml',
         Energía: '60Kcal',
         calorias: '173cal',
@@ -66,7 +66,7 @@ export let proteinass = [
     
     {
         titulo: 'Atun enlatado ',
-        img: '../img/atun.png',
+        img: './img/atun.png',
         porcion: '100g',
         Energía: '108Kcal',
         calorias: '186cal',
@@ -77,7 +77,7 @@ export let proteinass = [
 
     {
         titulo: 'Pescado carne, salmon',
-        img: '../img/salmon.png',
+        img: './img/salmon.png',
         porcion: '100g',
         Energía: '84Kcal',
         calorias: '179cal',
@@ -88,7 +88,7 @@ export let proteinass = [
 
     {
         titulo: 'Arroz blanco',
-        img: '../img/arroz.png',
+        img: './img/arroz.png',
         porcion: '250ml',
         Energía: '191Kcal',
         calorias: '374cal',
@@ -99,7 +99,7 @@ export let proteinass = [
 
     {
         titulo: 'Frijol blanco, grano seco',
-        img: '../img/frijolBlanco.png',
+        img: './img/frijolBlanco.png',
         porcion: '38.5g',
         Energía: '139Kcal',
         calorias: '333cal',
@@ -110,7 +110,7 @@ export let proteinass = [
 
     {
         titulo: 'Frijol negro, grano seco',
-        img: '../img/frijolNegro.png',
+        img: './img/frijolNegro.png',
         porcion: '38.5g',
         Energía: '218Kcal',
         calorias: '343cal',
@@ -121,7 +121,7 @@ export let proteinass = [
 
     {
         titulo: 'Arveja',
-        img: '../img/Arveja.png',
+        img: './img/Arveja.png',
         porcion: '82g',
         Energía: '42Kcal',
         calorias: '341cal',
@@ -132,7 +132,7 @@ export let proteinass = [
 
     {
         titulo: 'Almendra seca',
-        img: '../img/almendraSeca.png',
+        img: './img/almendraSeca.png',
         porcion: '100g',
         Energía: '7Kcal',
         calorias: '581cal',
@@ -144,7 +144,7 @@ export let proteinass = [
 
     {
         titulo: 'Aguacate',
-        img: '../img/Aguacate.png',
+        img: './img/Aguacate.png',
         porcion: '200g',
         Energía: '322Kcal',
         calorias: '160cal',
@@ -155,7 +155,7 @@ export let proteinass = [
 
     {
         titulo: 'Brocoli',
-        img: '../img/Brocoli.png',
+        img: './img/Brocoli.png',
         porcion: '500g',
         Energía: '31Kcal',
         calorias: '34cal',
@@ -166,7 +166,7 @@ export let proteinass = [
 
     {
         titulo: 'Nuez seca',
-        img: '../img/nuez.png',
+        img: './img/nuez.png',
         porcion: '100g',
         Energía: '170Kcal',
         calorias: '656cal',
