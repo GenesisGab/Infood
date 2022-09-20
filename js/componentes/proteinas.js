@@ -40,7 +40,7 @@ export function ActivarDesactivar() {
                 '</div>'+
                 
                 '<video class="vdProteinas" width="784" height="458" controls>'+
-                    // '<source src="./img/Portada.mp4" type="video/mp4">'+
+                    '<source src="./img/Portada.mp4" type="video/mp4">'+
                     'Tu navegador no es compatible con videos HTML5'+
                 '</video>'+
             '</div>'+
