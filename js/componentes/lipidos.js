@@ -20,17 +20,17 @@ export function ActivarDesactivar3() {
                 '<h2>¡Vaya! parece que aún no hay nada por acá</h2>'+
         '</div>'+
 
-        /* NOMBRE: */
+        /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section>'+
             
         '</section>'+
 
-        /* NOMBRE: */
+        /* NOMBRE:  - SECCION VIDEO Y GRÁFICA*/
         '<section>'+
 
         '</section>'+
             
-        /* NOMBRE:  */
+        /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
             
         '</section>';

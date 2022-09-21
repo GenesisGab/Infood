@@ -14,23 +14,18 @@ export function ActivarDesactivar2() {
     } else {
         explorer.style.display = "none";
         document.getElementById("proteinas").innerHTML=
-        
-        /*ELIMINAR CUANDO SE VAYA A TRABAJAR :> */
-        '<div class="avisoImg">'+
-                '<h2>¡Vaya! parece que aún no hay nada por acá</h2>'+
-        '</div>'+
 
-        /* NOMBRE: */
+        /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section>'+
             
         '</section>'+
 
-        /* NOMBRE: */
+        /* NOMBRE: NATALI - SECCION VIDEO Y GRÁFICA*/
         '<section>'+
 
         '</section>'+
             
-        /* NOMBRE:  */
+        /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
             
         '</section>';

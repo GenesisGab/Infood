@@ -23,6 +23,7 @@ export function ActivarDesactivar() {
 
         /* GENESIS */
         '<section>'+
+            /* etiquetas para la estadistica */
             '<div class="estadisticaProte">'+
                 '<h1 class="TituloContenido">Contenido de proteínas</h1>'+
                 '<div class="hijoimg">'+
@@ -34,6 +35,7 @@ export function ActivarDesactivar() {
                 '</div>'+
             '</div>'+
 
+            /* etiquetas para el video */
             '<div class="padreProteinas">'+
                 '<div class="subVdProteina">'+
                     '<h3>Video Funciones de la proteina en el organismo</h3>'+
@@ -46,7 +48,7 @@ export function ActivarDesactivar() {
             '</div>'+
         '</section>'+
             
-        /* NATALI */
+        /*  */
         '<section>'+
             '<div class="padreTexProt">'+
                 '<div class="imgProteText">'+
@@ -75,7 +77,6 @@ import {proteinass} from "../data/objetosProteinas.js";
 let bt_userCredit2 = document.querySelector('#tarjeta0');
 export function crearCarts(){
 
-    console.log("HOLAA");
     //VARIABLE EN DONDE VA A COLOCARSE LOS CUADRITOS
     let root = document.querySelector("#padreEsquemas");
 
