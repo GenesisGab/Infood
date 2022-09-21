@@ -16,8 +16,8 @@ export function ActivarDesactivar2() {
         document.getElementById("proteinas").innerHTML=
 
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
-        '<section>'+
-            
+        '<section id="cuadrosBroma">'+
+          
         '</section>'+
 
         /* NOMBRE: NATALI - SECCION VIDEO Y GRÁFICA*/
