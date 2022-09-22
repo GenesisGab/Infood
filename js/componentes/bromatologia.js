@@ -11,9 +11,8 @@ export function cuadrosBromat (){
     '</div>'+
     '<div id="galeria" data-aos="fade-up" data-aos-duration="1000"></div>'+
     '<section id="piramide"></section>';
-    
-       
 }
+
 cuadrosBromat();
 
 export function item(el_producto){
