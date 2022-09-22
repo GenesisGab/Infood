@@ -28,7 +28,17 @@ export function ActivarDesactivar2() {
             
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
-            
+        '<div class="padreTexProt">'+
+            '<div class="imgProteText">'+
+                '<img src="./img/imgCarbo.png">'+
+            '</div>'+
+            '<div>'+
+                '<p>Los carbohidratos son un tipo de macronutriente que se encuentra en muchos alimentos y bebidas. La mayoría de los carbohidratos se encuentran naturalmente en alimentos de origen vegetal, como los granos. Los fabricantes de alimentos también agregan carbohidratos a los alimentos procesados en forma de almidón o azúcar agregada.'+
+                '<br>Algunas fuentes comunes de carbohidratos naturales son las siguientes:'+
+                'Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
+                '<br> No consumir suficientes carbohidratos puede causar problemas. Sin combustible suficiente, el cuerpo no recibe energía. </p>'+
+            '</div>'+
+        '</div>'+
         '</section>';
     }
 
