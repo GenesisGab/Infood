@@ -26,4 +26,5 @@
 }
 .textoPiramide{
     font-size: var(--parrafo);
+    text-align: justify;
 }
