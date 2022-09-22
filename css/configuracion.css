@@ -33,15 +33,21 @@ html{
 }
 
 #root {
-    max-width: 37.5rem;
+    max-width: 37.5vw;
     height: auto;
     margin: auto;
+
     background-color: var(--grisClaro);
 }
 
 #footer {
-    max-width: 37.5rem;
+    max-width: 37.5vw;
     height: auto;
     margin: auto;
-    background-color: #959988;
+    background-color: rgba(149, 153, 136, 0.41);
+}
+
+p{
+    font-size: var(--h3);
+    color: var(--verdeClaro);
 }

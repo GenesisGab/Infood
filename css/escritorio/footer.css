@@ -1,0 +1,63 @@
+.integrantes{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10.5rem;
+}
+.caja1{
+    width: 35rem;
+    height: 30rem;
+    margin-right: 2rem;
+    padding: 0rem 2rem;
+    background-color: var(--grisOscuro);
+    text-align: center;
+}
+
+.caja1 h1{
+    font-size: 3.6rem;
+    font-weight: 400;
+    font-family: var(--titulos);
+    margin-top: 2.2rem;
+    color: var(--verdeClaro);
+    
+}
+
+.caja1 p{
+    font-size: 2rem;  
+    margin-top: 2rem;
+    align-items: center;
+}
+
+#biologos h1{
+    margin-bottom: 4.7rem;
+}
+
+@media only screen and (max-width:37.5rem) {
+
+    .integrantes{
+        padding-top: 2.9rem;
+    }
+
+    .caja1{
+        max-width: 11.2rem;
+        max-height: 20rem;
+        margin-right: 0.7rem;
+        padding: 0;
+    }
+
+    .caja1 h1{
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-top: 2.2rem;        
+    }
+    
+    .caja1 p{
+        font-size: 1.1rem;  
+        margin-top: 2rem;
+        align-items: center;
+    }
+    #biologos h1{
+        margin-bottom: 2.4rem;
+    }
+}

@@ -1,0 +1,200 @@
+/********************ELIMINAR CUANDO YA SE ESTE TRABAJANDO**************************/
+@media only screen and (max-width:37.5rem) {
+.avisoImg{
+    margin-top: 6.2rem;
+    margin-bottom: 5.5rem;
+}
+
+.avisoImg h2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+}
+/********************************************************************/
+
+/******* CONFIGURACION DEL MENU PARA EL TELEFONO ********/
+
+@media only screen and (max-width:37.5rem) {
+    #headerBanner{
+        /* height: 20.2rem; */
+        height: 10rem;
+    }
+    .tituloBanner{
+        width: 35%;
+        height: 8rem;
+        margin-top: 2rem;
+    }
+    .tituloBanner h1{
+        font-size: 2rem;
+    }
+
+    .logoHeader img{
+        /* width: 25rem; */
+        width: 20rem;
+    }
+    .logoHeader{
+        margin-top: 2.3rem;
+        margin-bottom: 2.3rem;
+    }
+
+    .hijoOption{
+        max-width: 4.2rem;
+        max-height: 1.8rem;
+        padding-left: 2rem;
+    }
+
+}
+
+
+/******* CONFIGURACION DE LA PIRAMIDE PARA EL TELEFONO ********/
+
+
+@media only screen and (max-width:37.5rem) {
+
+    .piramides img{
+        margin-top: 4.9rem;
+        max-width: 23.6rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .contenidoPiramide{
+        max-width: 24.5rem;
+        margin-right: 0;
+        text-align: center;
+        max-height: 23.4rem;
+    }
+
+    .contenidoPiramide h2{
+        font-size: 2rem;
+    }
+
+    .tituloPiramide{
+        margin-bottom: 1.4rem;
+    }
+    .contenidoPiramide p{
+        font-size: 1.1rem;
+    }
+ 
+}
+
+
+/**************** CONFIGURACION DE LA ESTADISTICA PARA EL TELEFONO ************************/
+
+@media only screen and (max-width:37.5rem) {
+
+    .Grafica{
+        max-width: 29.4rem;
+        max-height: 55.6rem;
+        padding-top: 5.7rem;
+        padding-bottom: 57rem;
+        margin-top: 2.6rem;
+        margin-bottom: 7.2rem;
+    }
+    .Grafica h3{
+        /* font-size: 2em; */
+        font-size: 0;
+        margin-bottom: 3rem;
+    }
+    .hijoGrafica h2{
+        font-size: 2rem;
+    }
+
+    .hijoGrafica img{
+        max-width: 25.454rem;
+        /* background-image : url('../img/graficaCel.png'); */
+    }
+  
+    .textoGrafica{
+        max-width: 24.5rem;
+        max-height: 16.8rem;
+        margin-left: 0rem;
+    }
+    
+    .parrafoGrafica{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+ 
+}
+
+
+
+/******************** CONFIGURACION DE LA BROMATOLOGIA PARA EL TELEFONO ************************/
+
+@media only screen and (max-width:37.5rem) {
+
+    .titulo h2{
+        font-size: 1.5rem;
+    }
+
+    .bromatologia{
+        max-width: 31.8rem;
+        max-height: 19.3rem;
+        margin-top: 5rem;
+    }
+
+    .text{
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    #galeria{
+        padding:0 !important; border:0 !important;/*<-- ME ANULA EL PADDING*/
+        margin: 0rem 2rem;
+        margin-top: 7rem;
+    }
+    #galeria h2{
+       font-size: 1.5rem;
+    }
+    #galeria p{
+        font-size: 1.1rem;
+    }
+    .item {
+        max-width: 15rem;
+        max-height: 36rem;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    .cj_img img {
+        max-width: 14.9rem;
+        max-height: 12.2rem;
+    }
+    .titulo{
+        margin-top: 1rem;
+    }
+}
+
+/**************************SECCION PROTEINAS***************************/
+
+/**CSS ESQUEMA**/
+
+
+/***CSS VIDEO***/
+@media only screen and (max-width:37.5rem) {
+
+    .padreProteinas{
+        width: 29rem;
+        height: 27.2rem;
+        margin-top: 5.5rem;
+    }
+    .subVdProteina{
+        width: 21.9rem;
+        height: auto;
+        margin-bottom: 2.5rem;
+    }
+    .vdProteinas{
+        width: 21.3rem;
+        height: 11.6rem;
+    }
+    .subVdProteina h3{
+        font-size: 2rem;
+    }
+}
+
+/**CSS INFORMACION*/

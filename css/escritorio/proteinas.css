@@ -1,0 +1,104 @@
+/***********KIMBERLY***********/
+
+.padreProte{
+    /* max-width: 121rem; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hijoProte{
+    margin-top: 4.2rem;
+}
+
+.cajaProte{
+    width: 29.6rem;
+    height: 8.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(149, 153, 136, 0.41);
+}
+
+.cajaProte h2{
+    font-size: 2rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--verdeClaro);
+}
+
+.subHijoProte{
+    width: 29.5rem;
+    height: 47.6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    background-color: rgba(149, 153, 136, 0.41);
+    /* margin-top: 4.2rem; */
+    
+    box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
+    -webkit-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
+    -moz-box-shadow: -1px 17px 0px -9px rgba(64,110,63,1);
+
+}
+.subHijoProte p{
+    font-size: 2rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    
+}
+.hijoProte img{
+    object-fit: cover;
+    height: 25rem;
+    width: 29.5rem;
+    margin-bottom: 3.4rem;
+}
+
+.tituloProteina{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15.5rem;
+    margin-bottom: 3rem;
+    font-size: 6.4rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--verdeClaro);
+}
+
+/*************GENESIS***********/
+
+.padreProteinas{
+    width: 113.2rem;
+    height: 80.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-top: 5px solid var(--verde);
+    margin-top: 9rem;
+    border-bottom: 5px solid var(--verde);
+}
+.subVdProteina{
+    width: 40.2rem;
+    height: 7.8rem;
+    margin-bottom: 3.1rem;
+    text-align: center;
+}
+.subVdProteina h3{
+    font-size: 3.2rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--colorTexto);
+    
+}
+
+/*************NATALY*****************/

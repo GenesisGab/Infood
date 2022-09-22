@@ -1,0 +1,29 @@
+.boxPadre{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.piramides img{
+    width: 47.3rem;
+}
+
+.contenidoPiramide{
+    width: 54rem;
+    height: 19.3rem;
+    margin-right: 5.2rem;
+    font-size: var(--h3);
+    
+}
+.tituloPiramide{
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--colorTexto);
+    margin-bottom: 5.4rem;
+}
+.textoPiramide{
+    font-size: var(--parrafo);
+}
