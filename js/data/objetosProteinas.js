@@ -10,6 +10,7 @@ export let proteinass = [
         lipidos: '2.1%',
         grafica: './img/Group 1.png',
     },
+    
     {
         titulo: 'Huevo de gallina',
         img: './img/huevo.png',
