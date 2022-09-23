@@ -3,7 +3,7 @@ var activarse = document.getElementById("tarjeta3");
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar4() {    
     
-    var explorer = document.getElementById("menu");
+    var explorer = document.getElementById("root");
     
     console.log("valor x",explorer);
 

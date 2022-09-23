@@ -3,7 +3,7 @@ var activarse = document.getElementById("tarjeta0");
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar() {    
     
-    var explorer = document.getElementById("menu");
+    var explorer = document.getElementById("root");
     
     console.log("valor x",explorer);
 
@@ -16,7 +16,7 @@ export function ActivarDesactivar() {
         document.getElementById("proteinas").innerHTML=
         
         '<div id="headerBanner">'+
-                '<img class="lineas" src="./img/banerBlanco.png">'+
+                '<img class="lineas" src="./img/bannerBlanco.png">'+
                 '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
         '</div>'+
         

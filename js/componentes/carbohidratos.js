@@ -3,7 +3,7 @@ var activarse = document.getElementById("tarjeta1");
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar2() {    
     
-    var explorer = document.getElementById("menu");
+    var explorer = document.getElementById("root");
     
     console.log("valor x",explorer);
 
@@ -16,7 +16,7 @@ export function ActivarDesactivar2() {
         document.getElementById("proteinas").innerHTML=
 
         '<div id="headerBanner">'+
-                '<img class="lineas" src="./img/banerBlanco.png">'+
+                '<img class="lineas" src="./img/bannerBlanco.png">'+
                 '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
         '</div>'+
         
@@ -78,7 +78,7 @@ export function ActivarDesactivar2() {
             '<div>'+
                 '<p>Los carbohidratos son un tipo de macronutriente que se encuentra en muchos alimentos y bebidas. La mayoría de los carbohidratos se encuentran naturalmente en alimentos de origen vegetal, como los granos. Los fabricantes de alimentos también agregan carbohidratos a los alimentos procesados en forma de almidón o azúcar agregada.'+
                 '<br>Algunas fuentes comunes de carbohidratos naturales son las siguientes:'+
-                '<br>Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
+                'Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
                 '<br> No consumir suficientes carbohidratos puede causar problemas. Sin combustible suficiente, el cuerpo no recibe energía. </p>'+
             '</div>'+
         '</div>'+
