@@ -10,6 +10,14 @@
 header{
     padding: 0rem 3rem;
 }
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--grisClaro);
+    width: 100%;
+    overflow: visible;
+
+}
 .tituloBanner{
     position: absolute;
     width: 35%;

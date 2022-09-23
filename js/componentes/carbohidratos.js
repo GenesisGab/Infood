@@ -15,6 +15,25 @@ export function ActivarDesactivar2() {
         explorer.style.display = "none";
         document.getElementById("proteinas").innerHTML=
 
+        '<div id="headerBanner">'+
+                '<img class="lineas" src="./img/banerBlanco.png">'+
+                '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
+        '</div>'+
+        
+        '<div class="logoHeader">'+
+            '<img src="./img/logo.png">'+
+        '</div>'+
+        '<header>'+
+            '<nav class="navbar">'+
+                '<ul class="nav">'+
+                    '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
+                    '<li><a class="hijoOption">Menú</a></li>'+
+                    '<li><a class="hijoOption">Dietas</a></li>'+
+                    '<li><a class="hijoOption">Planes</a></li>'+
+                '</ul>'+
+            '</nav>'+
+        '</header>'+
+
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section id="cuadrosBroma">'+
             '<h1 class="tituloProteina">CARBOHIDRATOS</h1>'+
@@ -43,7 +62,7 @@ export function ActivarDesactivar2() {
                 '</div>'+
         
                 '<video class="vdProteinas" width="784" height="458" controls>'+
-                    '<source src="./img/Infood Carbohidratos .mp4" type="video/mp4">'+
+                    '<source src="./img/carbohidratos/Infood Carbohidratos .mp4" type="video/mp4">'+
                     'Tu navegador no es compatible con videos HTML5'+
                 '</video>'+
             '</div>'+
@@ -59,7 +78,7 @@ export function ActivarDesactivar2() {
             '<div>'+
                 '<p>Los carbohidratos son un tipo de macronutriente que se encuentra en muchos alimentos y bebidas. La mayoría de los carbohidratos se encuentran naturalmente en alimentos de origen vegetal, como los granos. Los fabricantes de alimentos también agregan carbohidratos a los alimentos procesados en forma de almidón o azúcar agregada.'+
                 '<br>Algunas fuentes comunes de carbohidratos naturales son las siguientes:'+
-                'Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
+                '<br>Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
                 '<br> No consumir suficientes carbohidratos puede causar problemas. Sin combustible suficiente, el cuerpo no recibe energía. </p>'+
             '</div>'+
         '</div>'+

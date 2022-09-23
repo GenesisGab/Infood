@@ -14,7 +14,26 @@ export function ActivarDesactivar() {
     } else {
         explorer.style.display = "none";
         document.getElementById("proteinas").innerHTML=
-            
+        
+        '<div id="headerBanner">'+
+                '<img class="lineas" src="./img/banerBlanco.png">'+
+                '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
+        '</div>'+
+        
+        '<div class="logoHeader">'+
+            '<img src="./img/logo.png">'+
+        '</div>'+
+        '<header>'+
+            '<nav class="navbar">'+
+                '<ul class="nav">'+
+                    '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
+                    '<li><a class="hijoOption">Menú</a></li>'+
+                    '<li><a class="hijoOption">Dietas</a></li>'+
+                    '<li><a class="hijoOption">Planes</a></li>'+
+                '</ul>'+
+            '</nav>'+
+        '</header>'+
+        
         /* KIMBERLY */
        '<section id="cuadrosBroma">'+
             '<h1 class="tituloProteina">PROTEÍNAS</h1>'+
@@ -42,7 +61,7 @@ export function ActivarDesactivar() {
                 '</div>'+
                 
                 '<video class="vdProteinas" width="784" height="458" controls>'+
-                    '<source src="./img/Portada.mp4" type="video/mp4">'+
+                '<source src="./img/carbohidratos/Infood Proteínas .mp4" type="video/mp4">'+
                     'Tu navegador no es compatible con videos HTML5'+
                 '</video>'+
             '</div>'+

@@ -4,7 +4,8 @@ let root = document.querySelector("#piramide");
    //CREACION DE LOS DIV PARA EL PANEL
     root.innerHTML = 
     '<div class="boxPadre">'+
-    '<div class="piramides" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">'+
+    // '<div class="piramides" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">'+
+    '<div class="piramides">'+
             '<img class="imgPiramide" src="./img/piramide2sin.png">'+
         '</div>'+
         '<div class="contenidoPiramide">'+
