@@ -91,7 +91,7 @@ export function ActivarDesactivar2() {
 activarse.addEventListener('click', ActivarDesactivar2);
 
 
-/**************MOSTRAR DATA DE PROTEÍNAS***************/
+/**************MOSTRAR DATA DE CARBOHIDRATOS***************/
 
 import {carbohidratoss} from "../data/objetoCarbohidrato.js"
 

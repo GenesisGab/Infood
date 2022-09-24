@@ -8,7 +8,7 @@ export let lipidoss = [
         Proteinas: '0',
         carbohidratos: '0',
         lipidos: '100%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 1.png',
     },
     {
         titulo: 'Aceite vegetal de oliva',
@@ -19,7 +19,7 @@ export let lipidoss = [
         Proteinas: '0',
         carbohidratos: '0',
         lipidos: '100%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 2.png',
     },
     {
         titulo: 'Aceite vegetal de maiz',
@@ -30,7 +30,7 @@ export let lipidoss = [
         Proteinas: '0g',
         carbohidratos: '100g',
         lipidos: '100%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 3.png',
     },
     {
         titulo: 'Carne de res magra cruda',
@@ -41,7 +41,7 @@ export let lipidoss = [
         Proteinas: '22.03g',
         carbohidratos: '0g',
         lipidos: '29%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 4.png',
     },
     {
         titulo: 'Margarina sin sal',
@@ -52,7 +52,7 @@ export let lipidoss = [
         Proteinas: '0g',
         carbohidratos: '0.40g',
         lipidos: '99%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 5.png',
     },
     {
         titulo: 'Queso blanco fresco',
@@ -63,7 +63,7 @@ export let lipidoss = [
         Proteinas: '24.35g',
         carbohidratos: '1.91g',
         lipidos: '21%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 6.png',
     },
     {
         titulo: 'Agua de coco',
@@ -74,7 +74,7 @@ export let lipidoss = [
         Proteinas: '0.72g',
         carbohidratos: '3.17g',
         lipidos: '27.2%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 7.png',
     },
     {
         titulo: 'Queso amarillo de rodajas',
@@ -85,7 +85,7 @@ export let lipidoss = [
         Proteinas: '22.15g',
         carbohidratos: '1.60g',
         lipidos: '16.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 8.png',
     },
     {
         titulo: 'Huevo de gallina',
@@ -96,7 +96,7 @@ export let lipidoss = [
         Proteinas: '147g',
         carbohidratos: '0.77g',
         lipidos: '11.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 9.png',
     },
     {
         titulo: 'Queso duro',
@@ -107,7 +107,7 @@ export let lipidoss = [
         Proteinas: '35.75g',
         carbohidratos: '3.22g',
         lipidos: '13%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 10.png',
     },
     {
         titulo: 'Mayonesa',
@@ -118,7 +118,7 @@ export let lipidoss = [
         Proteinas: '0.90g',
         carbohidratos: '23.90g',
         lipidos: '79%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 11.png',
     },
     {
         titulo: 'Mantequilla sin sal',
@@ -129,7 +129,7 @@ export let lipidoss = [
         Proteinas: '0.85g',
         carbohidratos: '0.06g',
         lipidos: '83%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 12.png',
     },
     {
         titulo: 'Semilla de marañon tostada con sal',
@@ -140,7 +140,7 @@ export let lipidoss = [
         Proteinas: '15.31g',
         carbohidratos: '32.69g',
         lipidos: '63.3%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 13.png',
     },
     {
         titulo: 'Aguacate',
@@ -151,7 +151,7 @@ export let lipidoss = [
         Proteinas: '2g',
         carbohidratos: '8.53g',
         lipidos: '3.2%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 14.png',
     },
     {
         titulo: 'Mani tostado con sal',
@@ -162,7 +162,7 @@ export let lipidoss = [
         Proteinas: '23.69',
         carbohidratos: '21.5g',
         lipidos: '47.3%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 15.png',
     },
     {
         titulo: 'Nuez seca',
@@ -173,6 +173,6 @@ export let lipidoss = [
         Proteinas: '14.32cal',
         carbohidratos: '12.27g',
         lipidos: '67.2%',
-        grafica: './img/Group 1.png',
+        grafica: './img/lipidos/grafica/Group 16.png',
     }
 ]

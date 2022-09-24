@@ -38,7 +38,8 @@
     width: 29.5rem;
     height: 64.1rem;
     display: flex;
-    align-items: center;
+    align-items: center; 
+
     flex-direction: column;
     margin-right: 0.5rem;
     background-color: rgba(149, 153, 136, 0.41);
@@ -75,9 +76,11 @@
 
 .imgGrafics{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6.7rem;
+    justify-content:end;
+    align-items:flex-end;
+    margin-top: 2.3rem;
+    object-fit: cover;
+    height: 14.8rem;
 }
 .imgGrafics img{
     object-fit: cover;

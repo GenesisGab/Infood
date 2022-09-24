@@ -8,7 +8,7 @@ export let carbohidratoss = [
         Proteinas: '6.20g',
         carbohidratos: '68.70g',
         lipidos: '2.3%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 1.png',
     },
     {
         titulo: 'Pan de rodaja suave',
@@ -19,7 +19,7 @@ export let carbohidratoss = [
         Proteinas: '7.64g',
         carbohidratos: '50.61g',
         lipidos: '0.5%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 2.png',
     },
     {
         titulo: 'Avena en hojuelas',
@@ -30,7 +30,7 @@ export let carbohidratoss = [
         Proteinas: '16.89g',
         carbohidratos: '66.27g',
         lipidos: '7.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 3.png',
     },
     {
         titulo: 'Cereal granola',
@@ -41,7 +41,7 @@ export let carbohidratoss = [
         Proteinas: '14.87g',
         carbohidratos: '52.95g',
         lipidos: '4%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 4.png',
     },
     {
         titulo: 'Banano',
@@ -52,7 +52,7 @@ export let carbohidratoss = [
         Proteinas: '1.09g',
         carbohidratos: '22.84g',
         lipidos: '0.2%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 5.png',
     },
     {
         titulo: 'Mango Maduro',
@@ -63,7 +63,7 @@ export let carbohidratoss = [
         Proteinas: '0.5g',
         carbohidratos: '15.40g',
         lipidos: '0.4%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 6.png',
     },
     {
         titulo: 'Ciruela roja, fruta seca',
@@ -74,7 +74,7 @@ export let carbohidratoss = [
         Proteinas: '2.18g',
         carbohidratos: '63.88g',
         lipidos: '0.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 7.png',
     },
     {
         titulo: 'Yuca',
@@ -85,7 +85,7 @@ export let carbohidratoss = [
         Proteinas: '1.36g',
         carbohidratos: '38.06g',
         lipidos: '0.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 8.png',
     },
     {
         titulo: 'Arroz blanco',
@@ -96,7 +96,7 @@ export let carbohidratoss = [
         Proteinas: '20.85g',
         carbohidratos: '66.17g',
         lipidos: '0.6%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 9.png',
     },
     {
         titulo: 'Papas',
@@ -107,7 +107,7 @@ export let carbohidratoss = [
         Proteinas: '2.02g',
         carbohidratos: '17.47g',
         lipidos: '0.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 10.png',
     },
     {
         titulo: 'Elote amarillo',
@@ -118,7 +118,7 @@ export let carbohidratoss = [
         Proteinas: '3.6g',
         carbohidratos: '33.50g',
         lipidos: '0.2%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 11.png',
     },
     {
         titulo: 'Tortilla de maiz',
@@ -129,7 +129,7 @@ export let carbohidratoss = [
         Proteinas: '3.10g',
         carbohidratos: '37.60g',
         lipidos: '1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 12.png',
     },
     {
         titulo: 'Cereal corn flakes',
@@ -140,7 +140,7 @@ export let carbohidratoss = [
         Proteinas: '6.61g',
         carbohidratos: '87.11g',
         lipidos: '3.1%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 13.png',
     },
     {
         titulo: 'Semilla de marañon tostada con sal',
@@ -151,7 +151,7 @@ export let carbohidratoss = [
         Proteinas: '15.31g',
         carbohidratos: '32.69g',
         lipidos: '63.3%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 14.png',
     },
     {
         titulo: 'Mani tostado con sal',
@@ -162,7 +162,7 @@ export let carbohidratoss = [
         Proteinas: '23.69g',
         carbohidratos: '21.5g',
         lipidos: '47.3%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 15.png',
     },
     {
         titulo: 'Frijol rojo',
@@ -173,6 +173,6 @@ export let carbohidratoss = [
         Proteinas: '22.53g',
         carbohidratos: '61.29g',
         lipidos: '0%',
-        grafica: './img/Group 1.png',
+        grafica: './img/carbohidratos/grafica/Group 16.png',
     }
 ]

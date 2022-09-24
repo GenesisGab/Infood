@@ -56,7 +56,7 @@ export function ActivarDesactivar3() {
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar3);
 
-/**************MOSTRAR DATA DE PROTEÍNAS***************/
+/**************MOSTRAR DATA DE LIPIDOS***************/
 
 import {lipidoss} from "../data/objetoLipidos.js";
 let bt_userCredit2 = document.querySelector('#tarjeta2');
