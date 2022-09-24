@@ -16,10 +16,10 @@ export function ActivarDesactivar3() {
         document.getElementById("proteinas").innerHTML=
         
         '<div id="headerBanner">'+
-                '<img class="lineas" src="./img/banerBlanco.png">'+
-                '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
+            '<img class="lineas" src="./img/bannerBlanco.png">'+
+            '<div class="tituloBanner"><h1>INFOOD</h1></div>'+
         '</div>'+
-        
+
         '<div class="logoHeader">'+
             '<img src="./img/logo.png">'+
         '</div>'+
@@ -34,14 +34,10 @@ export function ActivarDesactivar3() {
             '</nav>'+
         '</header>'+
 
-        /*ELIMINAR CUANDO SE VAYA A TRABAJAR :> */
-        '<div class="avisoImg">'+
-                '<h2>¡Vaya! parece que aún no hay nada por acá</h2>'+
-        '</div>'+
-
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section>'+
-            
+            '<h1 class="tituloProteina">LIPIDOS</h1>'+
+            '<div class="padreProte" id="padreEsquemas"></div>'+
         '</section>'+
 
         /* NOMBRE:  - SECCION VIDEO Y GRÁFICA*/
@@ -59,3 +55,38 @@ export function ActivarDesactivar3() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar3);
+
+/**************MOSTRAR DATA DE PROTEÍNAS***************/
+
+import {lipidoss} from "../data/objetoLipidos.js";
+let bt_userCredit2 = document.querySelector('#tarjeta2');
+export function crearCarts(){
+
+    //VARIABLE EN DONDE VA A COLOCARSE LOS CUADRITOS
+    let root = document.querySelector("#padreEsquemas");
+
+    lipidoss.forEach(function(user1){
+        console.log("Nombre: ", user1.user_id);
+
+        let cuadros = document.createElement("div");
+
+        cuadros.innerHTML =
+            '<div class="hijoProte">'+
+                '<div class="cajaProte"><h2>'+user1.titulo+'</h2></div>'+
+                '<div class="subHijoProte">'+
+                    '<div><img class="imgProteina" src="'+user1.img+'"></div>'+
+                    '<p> Porción: '+user1.porcion+'</p>'+
+                    '<p> Energía: '+user1.Energía+'</p>'+
+                    '<p> Calorías: '+user1.calorias+'</p>'+
+                    '<p> Proteínas: '+user1.porcion+'</p>'+
+                    '<p> Carbohidratos: '+user1.carbohidratos+'</p>'+
+                    '<p> Lípidos: '+user1.lipidos+'</p>'+
+                    '<div class="imgGrafics"><img src="'+user1.grafica+'"></div>'+
+                '</div>'+
+            '</div>';  
+
+        root.appendChild(cuadros);
+    })
+};
+
+bt_userCredit2.addEventListener('click',crearCarts);//<--Este
