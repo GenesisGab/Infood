@@ -203,6 +203,7 @@ export let lipidoss = [
         medCarbohidratos: 'g',
         medLipidos: '%',
     },
+
     {
         titulo: 'Semilla de marañon tostada con sal',
         img: './img/lipidos/semillaMaranon.png',
