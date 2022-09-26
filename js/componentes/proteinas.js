@@ -100,7 +100,7 @@ export function crearCarts(){
     let root = document.querySelector("#padreEsquemas");
 
     proteinass.forEach(function(user1){
-        console.log("Nombre: ", user1.user_id);
+        // console.log("Nombre: ", user1.user_id);
 
         let cuadros = document.createElement("div");
 
@@ -109,12 +109,12 @@ export function crearCarts(){
                 '<div class="cajaProte"><h2>'+user1.titulo+'</h2></div>'+
                 '<div class="subHijoProte">'+
                     '<div><img class="imgProteina" src="'+user1.img+'"></div>'+
-                    '<p> Porción: '+user1.porcion+'</p>'+
-                    '<p> Energía: '+user1.Energía+'</p>'+
-                    '<p> Calorías: '+user1.calorias+'</p>'+
-                    '<p> Proteínas: '+user1.porcion+'</p>'+
-                    '<p> Carbohidratos: '+user1.carbohidratos+'</p>'+
-                    '<p> Lípidos: '+user1.lipidos+'</p>'+
+                    '<p> Porción: '+user1.porcion+user1.medPorcion+'</p>'+
+                    '<p> Energía: '+user1.Energía+user1.medEnergia+'</p>'+
+                    '<p> Calorías: '+user1.calorias+user1.medCaloria+'</p>'+
+                    '<p> Proteínas: '+user1.Proteinas+user1.medProteina+'</p>'+
+                    '<p> Carbohidratos: '+user1.carbohidratos+user1.medCarbohidratos+'</p>'+
+                    '<p> Lípidos: '+user1.lipidos+user1.medLipidos+'</p>'+
                     '<div class="imgGrafics"><img src="'+user1.grafica+'"></div>'+
                 '</div>'+
             '</div>';  

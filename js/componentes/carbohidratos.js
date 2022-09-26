@@ -58,7 +58,7 @@ export function ActivarDesactivar2() {
             '<div class="padreProteinas">'+
 
                 '<div class="subVdProteina">'+
-                    '<h3>Video Funciones de la proteina en el organismo</h3>'+
+                    '<h3>Video Funciones de los Carbohidratos</h3>'+
                 '</div>'+
         
                 '<video class="vdProteinas" width="784" height="458" controls>'+
@@ -71,17 +71,20 @@ export function ActivarDesactivar2() {
             
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
-        '<div class="padreTexProt">'+
-            '<div class="imgProteText">'+
-                '<img src="./img/imgCarbo.png">'+
+         '<div class="padreTexProt">'+
+                '<div class="imgProteText">'+
+                    '<img src="./img/imgCarbo.png">'+
+                '</div>'+
+                '<div>'+
+                    '<p>Los carbohidratos son un tipo de macronutriente que se encuentra en muchos alimentos y bebidas. La mayoría de los carbohidratos se encuentran naturalmente en alimentos de origen vegetal, como los granos. Los fabricantes de alimentos también agregan carbohidratos a los alimentos procesados en forma de almidón o azúcar agregada.'+
+                    '<br>'+
+                    '<br>Algunas fuentes comunes de carbohidratos naturales son las siguientes:'+
+                    '<br>'+
+                    '<br>Frutas Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
+                    '<br>'+
+                    '<br> No consumir suficientes carbohidratos puede causar problemas. Sin combustible suficiente, el cuerpo no recibe energía. </p>'+
+                '</div>'+
             '</div>'+
-            '<div>'+
-                '<p>Los carbohidratos son un tipo de macronutriente que se encuentra en muchos alimentos y bebidas. La mayoría de los carbohidratos se encuentran naturalmente en alimentos de origen vegetal, como los granos. Los fabricantes de alimentos también agregan carbohidratos a los alimentos procesados en forma de almidón o azúcar agregada.'+
-                '<br>Algunas fuentes comunes de carbohidratos naturales son las siguientes:'+
-                'Frutas <br> Verduras <br> Leche <br> Frutos secos <br> Granos <br> Semillas <br> Frijoles (alubias, porotos) <br> guisantes (arvejas, chícharos) <br> lentejas'+
-                '<br> No consumir suficientes carbohidratos puede causar problemas. Sin combustible suficiente, el cuerpo no recibe energía. </p>'+
-            '</div>'+
-        '</div>'+
         '</section>';
     }
 
@@ -111,12 +114,12 @@ export function crearCarts(){
                 '<div class="cajaProte"><h2>'+user1.titulo+'</h2></div>'+
                 '<div class="subHijoProte">'+
                     '<div><img class="imgProteina" src="'+user1.img+'"></div>'+
-                    '<p> Porción: '+user1.porcion+'</p>'+
-                    '<p> Energía: '+user1.Energía+'</p>'+
-                    '<p> Calorías: '+user1.calorias+'</p>'+
-                    '<p> Proteínas: '+user1.porcion+'</p>'+
-                    '<p> Carbohidratos: '+user1.carbohidratos+'</p>'+
-                    '<p> Lípidos: '+user1.lipidos+'</p>'+
+                    '<p> Porción: '+user1.porcion+user1.medPorcion+'</p>'+
+                    '<p> Energía: '+user1.Energía+user1.medEnergia+'</p>'+
+                    '<p> Calorías: '+user1.calorias+user1.medCaloria+'</p>'+
+                    '<p> Proteínas: '+user1.Proteinas+user1.medProteina+'</p>'+
+                    '<p> Carbohidratos: '+user1.carbohidratos+user1.medCarbohidratos+'</p>'+
+                    '<p> Lípidos: '+user1.lipidos+user1.medLipidos+'</p>'+
                     '<div class="imgGrafics"><img src="'+user1.grafica+'"></div>'+
                 '</div>'+
             '</div>';  
