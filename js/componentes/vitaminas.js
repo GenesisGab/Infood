@@ -42,12 +42,43 @@ export function ActivarDesactivar4() {
 
         /* NOMBRE:  - SECCION VIDEO Y GRÁFICA*/
         '<section>'+
+             /* etiquetas para la estadistica */
+            '<div class="estadisticaProte">'+
+                '<h1 class="TituloContenido">Contenido de Vitaminas</h1>'+
+                '<div class="hijoimg">'+
+                    '<img class="graficProt" src="./img/vitaminas/graficas/graficaVitaminas.png">'+
+                '</div>'+
+                '<div class="abajoGrafic">'+
+                    '<h3>Alimento <br>Porcion</h3>'+
+                    '<img src="./img/proteinas/graphics.png">'+
+                '</div>'+
+            '</div>'+
 
+            /* etiquetas para el video */
+            '<div class="padreProteinas">'+
+                '<div class="subVdProteina">'+
+                    '<h3>Video Funciones de las Vitaminas</h3>'+
+                '</div>'+
+                
+                '<video class="vdProteinas" width="784" height="458" controls>'+
+                '<source src="./img/vitaminas/Vitaminas Infood.mp4" type="video/mp4">'+
+                    'Tu navegador no es compatible con videos HTML5'+
+                '</video>'+
+            '</div>'+
         '</section>'+
             
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
-            
+            '<div class="padreTexProt">'+
+                '<div class="imgProteText">'+
+                    '<img src="./img/vitaminas/bnVitaminas.png">'+
+                '</div>'+
+                '<div>'+
+                    '<p>Las vitaminas son parte vital de una dieta saludable. Se ha determinado para casi todas ellas la cantidad diaria recomendada, es decir, la cantidad que la mayoría de las personas sanas necesitan tomar cada día para mantenerse saludables. También se ha fijado el límite superior de seguridad (cantidad máxima que se puede ingerir) de algunas de ellas. Si se consume una cantidad mayor, aumenta el riesgo de que se produzca un efecto perjudicial.'+
+                    '<br>'+
+                    '<br>Por otro lado, consumir poca cantidad de una vitamina puede causar un trastorno alimenticio, aunque la probabilidad de desarrollar una carencia vitamínica es baja si se tiene una alimentación variada. La falta de vitamina D es una excepción. La deficiencia de vitamina D es frecuente entre ciertos grupos de personas, incluso si se alimentan de forma adecuada. En el caso de otras vitaminas, solo hay déficit si se sigue una dieta restrictiva que no contenga la cantidad suficiente de una vitamina en particular.</p>'+
+                '</div>'+
+            '</div>'+
         '</section>';
     }
 

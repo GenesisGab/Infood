@@ -52,7 +52,7 @@ export let lipidoss = [
     },
     {
         titulo: 'Carne de res magra cruda',
-        img: './img/carnes.png',
+        img: './img/proteinas/carnes.png',
         porcion: 100,
         Energía: 126,
         calorias: 126,
@@ -86,7 +86,7 @@ export let lipidoss = [
     },
     {
         titulo: 'Queso blanco fresco',
-        img: './img/queso.png',
+        img: './img/proteinas/queso.png',
         porcion: 15,
         Energía: 60,
         calorias: 173,
@@ -223,7 +223,7 @@ export let lipidoss = [
     },
     {
         titulo: 'Aguacate',
-        img: './img/Aguacate.png',
+        img: './img/proteinas/Aguacate.png',
         porcion: 200,
         Energía: 322,
         calorias: 160,
@@ -257,7 +257,7 @@ export let lipidoss = [
     },
     {
         titulo: 'Nuez seca',
-        img: './img/nuez.png',
+        img: './img/proteinas/nuez.png',
         porcion: 100,
         Energía: 170,
         calorias: 656,

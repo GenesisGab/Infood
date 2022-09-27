@@ -50,7 +50,7 @@ export function ActivarDesactivar() {
                 '</div>'+
                 '<div class="abajoGrafic">'+
                     '<h3>Alimento <br>Porcion</h3>'+
-                    '<img src="./img/graphics.png">'+
+                    '<img src="./img/proteinas/graphics.png">'+
                 '</div>'+
             '</div>'+
 

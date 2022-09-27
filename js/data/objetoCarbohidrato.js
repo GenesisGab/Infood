@@ -154,7 +154,7 @@ export let carbohidratoss = [
     },
     {
         titulo: 'Arroz blanco',
-        img: './img/arroz.png',
+        img: './img/proteinas/arroz.png',
         porcion: 250,
         Energía: 191,
         calorias: 374,
