@@ -69,7 +69,29 @@ export function ActivarDesactivar3() {
             
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
-            
+            '<div class="padreTexProt">'+
+                '<div class="imgProteText">'+
+                    '<img src="./img/lipidos/bnLipidos.png">'+
+                '</div>'+
+                '<div>'+
+                    '<p>Dentro de los nutrientes que aportan energía están los lípidos, conocidos normalmente como grasas.'+
+                    '<br>'+
+                    '<br>'+
+                    'En los alimentos nos encontramos con tres tipos distintos de lípidos: grasas y aceites, fosfolipidos y colesterol. Cada uno tiene unas funciones distintas en el organismo, pero todos tienen unas características comunes:'+
+                    '<br>'+
+                    '<br>'+
+                    'Ser altamente energéticos (1 gramo de lípidos aporta 9 Kilocalorías).'+
+                    '<br>Ser insolubles en el agua.'+
+                    'Ser solubles en disolventes orgánicos como éter y cloroformo.'+
+                    'Sus funciones fundamentales en el organismo las podemos agrupar en:'+
+                    '<br>'+
+                    '<br>'+
+                    'Función energética y específicamente de energía de reserva. Parte fundamental de la membrana celular y responsable en parte de sus múltiples funciones.'+
+                    '<br>Aporte de ácidos grasos esenciales.'+
+                    '<br>Efecto ahorrador de la utilización de las proteínas como fuente de energía.'+
+                    '<br>Absorción de vitaminas liposolubles.</p>'+
+                '</div>'+
+            '</div>'+
         '</section>';
     }
 

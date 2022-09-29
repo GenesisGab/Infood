@@ -68,7 +68,7 @@ export function ActivarDesactivar2() {
             '</div>'+
             
         '</section>'+
-            
+
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
         '<section>'+
          '<div class="padreTexProt">'+
