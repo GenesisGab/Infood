@@ -26,9 +26,38 @@ export function ActivarDesactivar2() {
 
         '</section>'+
             
+<<<<<<< HEAD
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
+=======
+        /* Kimberly:  */
+>>>>>>> 59d111b88e629b44021e0941a7fc4c9651bc65d5
         '<section>'+
-            
+
+        '<div class="padreTexcarbo">'+
+        '<div class="imgcarboText">'+
+                    '<img src="./img/carbohidratos.png">'+
+                '</div>'+
+                '<div>'+
+
+        '<p >'
+        'Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en'
+        'la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro '
+        'requerimiento de proteínas en la dieta cambia a lo largo de la vida. Las proteínas están formadas por muchos bloques'
+        'de construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento '
+        'de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida. Las proteínas están formadas por muchos bloques de' 
+        'construcción, conocidos como aminoácidos. Nuestro cuerpo necesita proteínas en la dieta para suministrar'
+        'aminoácidos para el crecimiento y mantenimiento de nuestras'
+        'células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo de la vida.'
+        'Las proteínas están formadas por muchos bloques de construcción, conocidos como aminoácidos. Nuestro cuerpo'
+       'necesita proteínas en la dieta para suministrar aminoácidos para el crecimiento y mantenimiento de nuestras células y tejidos. Nuestro requerimiento de proteínas en la dieta cambia a lo largo'
+       'de la vida'
+       '</p>'+
+        
+       '</div>'+
+
+        '<img>'+
+        
+        '</img>'+
         '</section>';
     }
 

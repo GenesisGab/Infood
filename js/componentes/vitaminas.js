@@ -30,9 +30,37 @@ export function ActivarDesactivar4() {
 
         '</section>'+
             
+<<<<<<< HEAD
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
+=======
+        /* KIMBERLY:  */
+>>>>>>> 59d111b88e629b44021e0941a7fc4c9651bc65d5
         '<section>'+
-            
+        '<div class="padreTexcarbo">'+
+        '<div class="imgvitaminasText">'+
+                    '<img src="./img/Rectangle 49.png">'+
+                '</div>'+
+                '<div>'+
+
+        '<p >'
+        'Las vitaminas son parte vital de una dieta saludable. Se ha determinado para casi todas ellas la cantidad diaria recomendada, es decir, la cantidad que la mayoría de las personas sanas necesitan tomar cada día para mantenerse saludables. También se ha fijado el límite superior '
+        'de seguridad (cantidad máxima que se puede ingerir) de algunas de ellas. Si se consume una cantidad mayor, aumenta el riesgo de que se produzca un efecto perjudicial.'
+
+        'Por otro lado, consumir poca cantidad de una vitamina '
+        'puede causar un trastorno alimenticio, aunque la probabilidad '
+        'de desarrollar una carencia vitamínica es baja si se tiene una '
+        'alimentación variada. La falta de vitamina D es una excepción. La deficiencia '
+        'de vitamina D es frecuente entre ciertos grupos de personas, incluso si se '
+        'alimentan de forma adecuada. En el caso de otras vitaminas, solo hay déficit '
+        'si se sigue una dieta restrictiva que no contenga la cantidad suficiente de una '
+        'vitamina en particular.'
+       '</p>'+
+        
+       '</div>'+
+
+        '<img>'+
+        
+        '</img>'+
         '</section>';
     }
 
