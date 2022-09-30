@@ -27,7 +27,29 @@ export function ActivarDesactivar4() {
 
         /* NOMBRE:  - SECCION VIDEO Y GRÁFICA*/
         '<section>'+
+        '<div class="estadisticaProte">'+
+            '<h1 class="TituloContenido">Contenido de carbohidratos</h1>'+
+            '<div class="hijoimg">'+
+                '<img class="graficProt" src="./img/graficaCarbohidrato.png">'+
+            '</div>'+
+            '<div class="abajoGrafic">'+
+                '<h3>Alimento <br>Porcion</h3>'+
+                '<img src="./img/carboAliment.png">'+
+            '</div>'+
+        '</div>'+
 
+        /* SECCION DEL VIDEO */
+            '<div class="padreProteinas">'+
+
+                '<div class="subVdProteina">'+
+                    '<h3>Video Funciones de la proteina en el organismo</h3>'+
+                '</div>'+
+        
+                '<video class="vdProteinas" width="784" height="458" controls>'+
+                    '<source src="./img/Infood Carbohidratos .mp4" type="video/mp4">'+
+                    'Tu navegador no es compatible con videos HTML5'+
+                '</video>'+
+            '</div>'+
         '</section>'+
             
         /* NOMBRE:  KIMBERLY - SECCIÓN INFORMACIÓN*/
