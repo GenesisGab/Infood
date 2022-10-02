@@ -9,3 +9,4 @@ import { ActivarDesactivar } from "./componentes/proteinas.js";
 import { ActivarDesactivar2 } from "./componentes/carbohidratos.js";
 import { ActivarDesactivar3 } from "./componentes/lipidos.js";
 import { ActivarDesactivar4 } from "./componentes/vitaminas.js";
+import { filtrar } from "./componentes/buscador.js";

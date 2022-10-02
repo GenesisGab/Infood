@@ -25,7 +25,40 @@ export function menu (){
                 '</ul>'+
             '</nav>'+
         '</header>'+
-        
+    
+    `<div id="vtEmergente">
+    </div>
+
+    <div class="buscador">
+        <div class="cuadro" >
+            <div class="btBuscar">
+                <div class="inputBuscar">
+                    <div id="bt">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAh1JREFUWEftl40thEEQht+rgBKoABWgAlSADqgAFaACVIAKUAEqQAdUQJ5kJ5ms/XZn73LnJDfJl1zu25197p2fnRtpzmw0Zzz610ArknYkbUni83pS90XSu6RHSffp89jCRxTi8BNJB8FTriWdjQvWAtqVdCVpOQhjyz4lHUq669xXzSEUAcbbkyQUIEw8GKHjYf1mth4o1odtSCGUuXVeXiUdpTypOSe/LiStuUV7PUqVgMiZZxcmYDiIMESM8JLgBsW+1ej+EhAS76eTe2EMOIe6iRZFDoQ6b06G7UCYhlRD1Qf3EpVoD1XLgciT87SDBMbpJEboLNGPU351AVGmND+su0IKJ/lKpWlSLF1AlLIl44Yr7Zafofe0AwoEwzc+u4C+3epW02z5tvddPvNDuzYHicznV6Tj50DTDFmoSHKgaSb1Zer2XTnky56SpQ9NYhOX/bQaI/mD7+b107o6yClUajrKZOTqoEvbEMd8dBqReuhyBWTJ9Y8eqBzmI4GFflR0/ACQ1k9O1IyrhqvHlGEthcIIErJa8ysNaAAxDTAF+AGN7s76obuPPVxFTWt1Y+4enFn4mg7TAsIEsN2LfB2CagHhiOogIW1GqkFRTUyMPOSMn61CUBEgAwAMxexvEGECwOZrZh0A8uTtguoBioartC4MNSsgC5cPezGnZgmUQxUHwFkDGZS1j1/h/Qugai4ugFqlulCopdAPAal3JSpnRUAAAAAASUVORK5CYII="/>
+                    </div>
+                    <label>
+                        <input id="formulario" class="bt_out" placeholder="Escribe aqui para buscar" type="text">
+                    </label>
+                </div>
+
+                <div class="select">
+                    <select class="bt_opciones" id="opciones">
+                        <option selected disabled>Categoria</option>
+                        <option>Proteinas</option>
+                        <option>Carbohidratos</option>
+                        <option>Lipidos</option>
+                        <option>Vitaminas</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="btBuscar2" id="resultados">
+            </div>
+        </div>
+
+    </div>`+
+
+
     '<section id="menu"></section>';
        
 }
