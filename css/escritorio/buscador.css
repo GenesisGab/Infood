@@ -1,5 +1,18 @@
 
 /*********************************/
+.flecahSelect{  
+    position: absolute;
+    margin-top: 2rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(1, 27, 1)); 
+    width: 1rem;
+}
+.cuadroFlecha{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-left: 14rem;
+    
+}
 .cuadro{
     display: flex;
     justify-content: center;
@@ -48,7 +61,7 @@
     margin-left: 2.4rem;
 }
 .inputBuscar{
-    width: 116.2rem;
+    width: 114rem;
     display: flex;
     align-items: center;
     height: 7rem;
@@ -72,6 +85,7 @@
 .bt_opciones{
     width: 21.5rem;
     height: 7rem;
+
     text-align: left;
     padding-left: 2rem;
     font-size: 2.4rem;
@@ -86,7 +100,7 @@ select{
     overflow: hidden;
     box-shadow: transparent;
     
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     font-family: var(--titulos);
     color: var(--verdeClaro);
 }
@@ -100,7 +114,7 @@ select:focus{ outline: none;}
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    width: 95.9rem;
+    width: 97rem;
     margin-right: 23.4rem;
     background: rgba(149, 153, 136, 0.41);
     height: auto;

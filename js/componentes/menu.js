@@ -41,9 +41,13 @@ export function menu (){
                     </label>
                 </div>
 
-                <div class="select">
+            <div class="select">
+<!--
+                <div class="cuadroFlecha">
+                        <img class="flecahSelect" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAQpJREFUWEftls0RAUEQhb89kQVZcJQBokAUiAJRIANHsiALTlSr2cvWju7ZH0VVu3b362/fzryV8WO/7Md4cCDtjbhD7pDmgFb3M+QOaQ5o9b87QyvtiSrUn8A6NmdxaAvMKiwuGxGtxSctC5DMH4BxTSjRmGoaVqAucAIGmmCkfgZGwEObtwKJTj9A9TTRQv0aYG6WuRQg0RsGqI5FHLgHmIuxv9IftAmwNy6Q3qOx992W6lCuPQc2yiLp2aXA1AGSWcmoZWSh1KJZ08S1j2mUZZSaNW0CFTPKlDVtA+UZJZ8EU9a0DZRnlACZsuYbQKmXKdpf9do3BlAUciDNWnfIHdIc0Op+hjSHXqEBHiWT3C6YAAAAAElFTkSuQmCC"/>
+                </div>
+-->
                     <select class="bt_opciones" id="opciones">
-                        <option selected disabled>Categoria</option>
                         <option>Proteinas</option>
                         <option>Carbohidratos</option>
                         <option>Lipidos</option>
