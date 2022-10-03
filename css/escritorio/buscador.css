@@ -86,7 +86,7 @@ select{
     overflow: hidden;
     box-shadow: transparent;
     
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
     font-family: var(--titulos);
     color: var(--verdeClaro);
 }

@@ -17,6 +17,7 @@ let ventana = document.querySelector('#vtEmergente');
 
 export function seleccionarBd(){
     bd = document.querySelector('#opciones').value;
+    resultado.innerHTML = "";
     formulario.value = "";
 }
 
@@ -186,6 +187,7 @@ export let filtrar = txtIng =>{
                 
             } else {
                 explorer.style.display = "none";
+                formulario.value ="";
             }
 
         }
