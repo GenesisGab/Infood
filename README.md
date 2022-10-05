@@ -17,9 +17,10 @@
 
 - #### Desarrolladoras
 
-	➔ Natali Daniela Marroquín Garrido
 
 	➔ Génesis Gabriel Subuyuj Ramírez
+
+	➔ Natali Daniela Marroquín Garrido
 	
 	➔Kimberly Estephania Hernandez Ortiz 
 

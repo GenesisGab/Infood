@@ -23,7 +23,6 @@ header {
     width: 35%;
     height: 27rem;
     margin-top: 3rem;
-    /* background-color: rgba(0, 255, 255, 0.276); */
     text-align: center;
     display: flex;
     align-items: center;
@@ -126,4 +125,53 @@ a{
 
 .navbar ul li:hover::before {
     width: 80%;
+}
+
+/**********MENU DESPLEGABLE**************/
+.navbar > li{
+    float: left;
+}
+
+.navbar li ul{
+    display: none;
+    position: absolute;
+}
+
+.navbar li:hover>ul{
+    display: block;
+}
+
+.subnav{
+    list-style: none;
+    width: 13.8rem;
+    height: auto;
+    background: #C6C7BE;
+    text-align: center;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+}
+.hijoSUbb{
+    background: #C6C7BE;
+
+    margin-top: 0.4rem;
+    width: 13.8rem;
+    height: 3.6rem;
+    cursor: pointer;
+    font-family: var(--titulos);
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-right: 3.3rem; 
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    list-style: none;   
+}
+
+.hijoSUbb:hover{
+    transition: 0.3s;
+    background: rgba(149, 153, 136, 0.41);
 }

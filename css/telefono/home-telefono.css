@@ -74,7 +74,7 @@
     .contenidoPiramide p{
         font-size: 1.1rem;
     }
- 
+
 }
 
 
@@ -103,19 +103,19 @@
         max-width: 25.454rem;
         /* background-image : url('../img/graficaCel.png'); */
     }
-  
+
     .textoGrafica{
         max-width: 24.5rem;
         max-height: 16.8rem;
         margin-left: 0rem;
     }
-    
+
     .parrafoGrafica{
         margin-top: 3rem;
         font-size: 1.2rem;
         text-align: justify;
     }
- 
+
 }
 
 
@@ -304,7 +304,7 @@
         width: 100%;
         margin-top: 2.8rem;
     }
-    
+
     .btBuscar{
         max-width: 22.4rem;
         height: 3.3rem;
@@ -319,94 +319,221 @@
         height: 3.3rem;
         margin-right: 0rem;
     }
-    
+
     .bt_out{
         width: 19.1rem;
         font-size: 1.2rem;
     }
-    
+
     /*CUADRO DE SELECCION*/
     .bt_opciones{
         width: 9.1rem;
         height: 3.3rem;
         /* padding-left: 0.8rem; */
         padding-left: 0.5rem;
-    
+
         font-size: 1rem;
         margin-left: 0.4rem;
     }
-    
+
     /*BARRA DE OPCIONES*/
     .btBuscar2{
         width: 22.4rem;
         margin-right: 9.5rem;
     }
-    
+
     h3{
         font-size: 1.2rem;
     }
-    
+
     .aviso{
         padding-left: 2.3rem;
     }
-    
+
     .sugAliment{
         font-size: 1.2rem;
     }
-    
+
     .imgBusqueda{
         width: 4.2rem;
         height: 3.3rem;
         margin-right: 1.3rem;
     }
-    
+
     .aviso{
         font-size: 1.2rem;
     }
-    
+
     #vtEmergente{
         width: 100%;
         height: 603vh;
     }
-    
+
     .contenido_emergente{
         width: 31.9rem;
         height: 15.6rem;
     }
-    
+
     .emergente_Description{
         width: 15rem;
         height: 15.6rem;
         padding-left: 1.3rem;
         padding-top: 1.2rem;
     }
-    
+
     .emergente_Description h2{
         font-weight: 400;
         font-size: 1.4rem;
     }
-    
+
     .emergente_Description p{
         font-size: 1.2rem;
     }
-    
+
     .imgVentana{
         width: 14.6rem;
         height: 15.6rem;
         object-fit: cover;
     }
-    
+
     .imgVentana img{
         width: 14.6rem;
         height: 15.6rem;
         object-fit: cover;
     }
-    
+
     .btCloseEmergente{
         margin-right: 0.1rem;
-        margin-top: 5px;  
+        margin-top: 5px;
     }
     .btCloseEmergente img{
         width: 2.5rem;
     }
     }
+
+/******************GRAFICA Y CALCULADOR*******************/
+@media only screen and (max-width:37.5rem) {
+.titleNutri{
+    width: 24.7rem;
+    height: 8.8rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.titleNutri h1{
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+}
+.titleNutri p{
+   font-size: 1.4rem;
+}
+
+/*INPUT Y TEXTO*/
+.selectAliment{
+    margin-bottom: 0.9rem;
+}
+.cajaAliment{
+    width: 11.2rem;
+    height: 4.8rem;
+    margin-right: 0.7rem;
+}
+.selectAliment h2{
+    font-size: 1.5rem;
+}
+.inputAliment{
+    /* width: 15.1rem; */
+    width: 20rem;
+
+    height: 4.8rem;
+    padding: 0.1cm;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.titleResultado{
+    width: 27.2rem;
+    height: 3.1rem;
+    display: none;
+}
+
+.porcentajeAlimentos{
+    flex-wrap: wrap;
+    margin-bottom: 6.5rem;
+}
+
+
+/***********************************/
+#resultado{
+    width: 20rem;
+    height: 16.3rem;
+    margin-left: 42.5rem;
+    margin-top: 21rem;
+    position: absolute;
+    text-align: left;
+}
+
+.alimentSug{
+    padding-left: 0.2cm;
+    height: 6rem;
+}
+
+/***************DISEÑO DE LA GRÁFICA*****************/
+#graphicAliment{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+.sons{
+    width: 11.2rem;
+    height: auto;
+    margin-right: 0.7rem;
+}
+
+.sons div{
+    height: 2.6rem;
+    padding-left: 0.9rem;
+}
+
+.sons h3{
+    font-size: 1.1rem;
+}
+
+.sons2{
+    /* width: 15.1rem; */
+    width: 20rem;
+    margin-right: 0;
+}
+.sons2 div{
+    width: 20rem;
+    height: 2.6rem;
+    display: flex;
+}
+
+.sons2 h3{
+    font-size: 1.1rem;
+}
+
+/*DESIGN GRAPHICS*/
+canvas{
+    width: 40vh;
+    height: 1000vh;
+
+}
+.title2{
+    width: 27.2rem;
+    height: 3.1rem;
+    margin-top: 2.1rem;
+    margin-bottom: 0.6rem;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    font-family: var(--titulos);
+    align-items: center;
+    background: rgba(149, 153, 136, 0.41)
+}
+.title2 h1{
+    font-weight: 400;
+}
+}

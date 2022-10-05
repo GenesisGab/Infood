@@ -46,7 +46,13 @@ html{
     margin: auto;
     background-color: rgba(149, 153, 136, 0.41);
 }
+#calculadorInfood{
+    max-width: 37.5vw;
+    height: auto;
+    margin: auto;
 
+    background-color: var(--grisClaro);
+}
 p{
     font-size: var(--h3);
     color: var(--verdeClaro);

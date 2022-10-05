@@ -24,15 +24,22 @@ export function ActivarDesactivar4() {
             '<img src="./img/logo.png">'+
         '</div>'+
         '<header>'+
-            '<nav class="navbar">'+
-                '<ul class="nav">'+
-                    '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a class="hijoOption">Menú</a></li>'+
-                    '<li><a class="hijoOption">Dietas</a></li>'+
-                    '<li><a class="hijoOption">Planes</a></li>'+
-                '</ul>'+
-            '</nav>'+
-        '</header>'+
+        '<nav class="navbar">'+
+            '<ul class="nav">'+
+                '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
+                '<li><a class="hijoOption">Menú</a>'+
+                    '<ul class="subnav">'+
+                        '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
+                        '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
+                        '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
+                        '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
+                    '</ul>'+
+                '</li>'+
+                '<li ><a id="infoodNutri" class="hijoOption">Infood Nutri</a></li>'+
+                '<li><a class="hijoOption">Planes</a></li>'+
+            '</ul>'+
+        '</nav>'+
+    '</header>'+
 
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section>'+

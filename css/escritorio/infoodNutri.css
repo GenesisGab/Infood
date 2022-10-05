@@ -1,0 +1,188 @@
+.title2{
+    display: none;
+}
+.titleNutri{
+    width: 75.3rem;
+    height: 18.2rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 14.9rem;
+    margin-bottom: 6.2rem;
+}
+.titleNutri h1{
+    font-size: 6.4rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--verdeClaro);
+    margin-bottom: 4rem;
+    
+}
+.titleNutri p{
+   font-size: 2.4rem;
+}
+.padreAlimentos{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    color: var(--verdeClaro);
+
+}
+
+/*INPUT Y TEXTO*/
+.selectAliment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7rem;
+    font-family: var(--titulos);
+}
+.cajaAliment{
+    width: 24.4rem;
+    height: 7.1rem;
+    background: rgba(149, 153, 136, 0.41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.7rem;
+}
+.selectAliment h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.inputAliment{
+    width: 29rem;
+    height: 7.1rem;
+    background: rgba(149, 153, 136, 0.41);
+    outline: none;
+    border: 0;
+    padding-left: 1.5rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-right: 2rem;
+    color: var(--verdeClaro);
+}
+.titleResultado{
+    width: 54.8rem;
+    height: 7.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(149, 153, 136, 0.41);
+}
+
+.porcentajeAlimentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 11.6rem;
+}
+
+
+/***********************************/
+#resultado{
+    display: none;
+    flex-direction: column;
+    background: rgba(149, 153, 136, 0.877);
+    overflow:auto;
+    width: 29rem;
+    height: 20rem;
+    margin-right: 30.8rem;
+    margin-top: 26.5rem;
+    position: absolute;
+}
+
+#resultado::-webkit-scrollbar{
+    width: 7px;
+}
+
+#resultado::-webkit-scrollbar-thumb {
+	background: #297a36;
+	border-radius: 5px;
+}
+.alimentSug{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 1.4rem;
+}
+.alimentSug h3{
+    font-weight: 400;
+}
+.alimentSug:hover{
+    background-color:#406e3f69;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/***************DISEÑO DE LA GRÁFICA*****************/
+#graphicAliment{
+    background: rgba(149, 153, 136, 0.41);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54.9rem;
+    height: 48.6rem;
+    /* margin-left: 1.5rem; */
+}
+
+.sons{
+    width: 24.4rem;
+    height: auto;
+    background: rgba(149, 153, 136, 0.41);
+    margin-right: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--verdeClaro);
+}
+
+.sons div{
+    /* background-color: #ff9d00; */
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2.8rem;
+}
+
+.sons h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: var(--titulos);
+}
+
+.secondSon{
+    background: rgba(149, 153, 136, 0.41);
+}
+.sons2{
+    width: 29rem;
+    background: rgba(149, 153, 136, 0.41);
+    margin-right: 2rem;
+    color: var(--verdeClaro);
+}
+
+.sons2 div{
+    width: 29rem;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    justify-content: center;
+}
+
+.sons2 h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: var(--titulos);
+}
+
+/*DESIGN GRAPHICS*/
+.designGraphic{
+    font-size: 5rem;
+}

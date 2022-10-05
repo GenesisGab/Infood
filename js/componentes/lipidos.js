@@ -1,4 +1,5 @@
 var activarse = document.getElementById("tarjeta2");
+var goLipidos = document.getElementById("lipidoss");
 
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar3() {    
@@ -27,8 +28,15 @@ export function ActivarDesactivar3() {
             '<nav class="navbar">'+
                 '<ul class="nav">'+
                     '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a class="hijoOption">Menú</a></li>'+
-                    '<li><a class="hijoOption">Dietas</a></li>'+
+                    '<li><a class="hijoOption">Menú</a>'+
+                        '<ul class="subnav">'+
+                            '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
+                            '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
+                            '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
+                            '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li ><a id="infoodNutri" class="hijoOption">Infood Nutri</a></li>'+
                     '<li><a class="hijoOption">Planes</a></li>'+
                 '</ul>'+
             '</nav>'+
@@ -99,11 +107,15 @@ export function ActivarDesactivar3() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar3);
+goLipidos.addEventListener('click',ActivarDesactivar3);
 
 /**************MOSTRAR DATA DE LIPIDOS***************/
 
 import {lipidoss} from "../data/objetoLipidos.js";
+
 let bt_userCredit2 = document.querySelector('#tarjeta2');
+let btLipidos = document.querySelector('#lipidoss');
+
 export function crearCarts(){
 
     //VARIABLE EN DONDE VA A COLOCARSE LOS CUADRITOS
@@ -134,3 +146,4 @@ export function crearCarts(){
 };
 
 bt_userCredit2.addEventListener('click',crearCarts);//<--Este
+btLipidos.addEventListener('click',crearCarts);

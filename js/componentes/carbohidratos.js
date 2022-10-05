@@ -1,4 +1,5 @@
 var activarse = document.getElementById("tarjeta1");
+var goCarbohidratos = document.getElementById("carbohidratoss");
 
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar2() {    
@@ -27,8 +28,15 @@ export function ActivarDesactivar2() {
             '<nav class="navbar">'+
                 '<ul class="nav">'+
                     '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a class="hijoOption">Menú</a></li>'+
-                    '<li><a class="hijoOption">Dietas</a></li>'+
+                    '<li><a class="hijoOption">Menú</a>'+
+                        '<ul class="subnav">'+
+                            '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
+                            '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
+                            '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
+                            '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li ><a id="infoodNutri" class="hijoOption">Infood Nutri</a></li>'+
                     '<li><a class="hijoOption">Planes</a></li>'+
                 '</ul>'+
             '</nav>'+
@@ -92,13 +100,15 @@ export function ActivarDesactivar2() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar2);
-
+goCarbohidratos.addEventListener('click',ActivarDesactivar2);
 
 /**************MOSTRAR DATA DE CARBOHIDRATOS***************/
 
 import {carbohidratoss} from "../data/objetoCarbohidrato.js"
 
 let bt_userCredit2 = document.querySelector('#tarjeta1');
+let btCarbohidratos = document.querySelector('#carbohidratoss');
+
 export function crearCarts(){
 
     //VARIABLE EN DONDE VA A COLOCARSE LOS CUADRITOS
@@ -129,3 +139,4 @@ export function crearCarts(){
 };
 
 bt_userCredit2.addEventListener('click',crearCarts);//<--Este
+btCarbohidratos.addEventListener('click',crearCarts);
