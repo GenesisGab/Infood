@@ -11,6 +11,7 @@ export function ActivarDesactivar3() {
     //Activa y desactiva la ventana
     if (explorer.style.display === "none") {
         explorer.style.display = "block";
+        explorer.innerHTML='';
         
     } else {
         explorer.style.display = "none";
@@ -27,8 +28,8 @@ export function ActivarDesactivar3() {
         '<header>'+
             '<nav class="navbar">'+
                 '<ul class="nav">'+
-                    '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a class="hijoOption">Menú</a>'+
+                    '<li><a href="./index.html" class="hijoOption" id="inicio">Inicio</a></li>'+
+                    '<li><a href="#galeria" class="hijoOption">Menú</a>'+
                         '<ul class="subnav">'+
                             '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
                             '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
@@ -36,8 +37,16 @@ export function ActivarDesactivar3() {
                             '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
                         '</ul>'+
                     '</li>'+
-                    '<li ><a id="infoodNutri" class="hijoOption">Infood Nutri</a></li>'+
-                    '<li><a class="hijoOption">Planes</a></li>'+
+                    '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
+                    '<li><a class="hijoOption">Temas</a>'+
+                        '<ul class="subnav">'+
+                            // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
+                            '<li><a a" href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
+                            
+                            '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
+                            '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
+                        '</ul>'+
+                    '</li>'+
                 '</ul>'+
             '</nav>'+
         '</header>'+

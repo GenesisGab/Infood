@@ -30,9 +30,11 @@ export function menu (){
                 '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
                 '<li><a class="hijoOption">Temas</a>'+
                     '<ul class="subnav">'+
-                        '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
-                        '<li><a href="#piramide" class="hijoSUbb">Pirámide</a></li>'+
-                        '<li><a href="#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
+                        // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        '<li><a a" href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        
+                        '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
+                        '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
                     '</ul>'+
                 '</li>'+
             '</ul>'+

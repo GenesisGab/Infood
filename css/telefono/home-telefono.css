@@ -1,15 +1,4 @@
-/********************ELIMINAR CUANDO YA SE ESTE TRABAJANDO**************************/
-@media only screen and (max-width:37.5rem) {
-.avisoImg{
-    margin-top: 6.2rem;
-    margin-bottom: 5.5rem;
-}
 
-.avisoImg h2{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-}
 /********************************************************************/
 
 /******* CONFIGURACION DEL MENU PARA EL TELEFONO ********/
@@ -38,11 +27,31 @@
     }
 
     .hijoOption{
-        max-width: 4.2rem;
+        /* max-width: 4.2rem;
         max-height: 1.8rem;
+        background-color: aqua;
+        padding-left: 2rem; */
+        max-width: 8rem;
+        max-height: auto;
+        font-size: 1.5rem;
         padding-left: 2rem;
+        margin: 0;
+        padding: 0;
     }
-
+    
+    .subnav{
+        width: 8rem;
+    }
+    .hijoSUbb{
+        width: 8rem;
+        height: 3.6rem;
+        font-size: 1.1rem;
+    }
+    
+    .hijoSUbb:hover{
+        transition: 0.3s;
+        background: rgba(149, 153, 136, 0.41);
+    }
 }
 
 
@@ -240,6 +249,7 @@
     .subVdProteina h3{
         font-size: 1.5rem;
     }
+
 }
 
 /**CSS INFORMACION*/
