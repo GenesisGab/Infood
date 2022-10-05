@@ -1,5 +1,4 @@
 var activarse = document.getElementById("tarjeta1");
-var goCarbohidratos = document.getElementById("carbohidratoss");
 
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar2() {    
@@ -26,30 +25,30 @@ export function ActivarDesactivar2() {
             '<img src="./img/logo.png">'+
         '</div>'+
         '<header>'+
-            '<nav class="navbar">'+
-                '<ul class="nav">'+
-                    '<li><a href="./index.html" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a href="#galeria" class="hijoOption">Menú</a>'+
-                        '<ul class="subnav">'+
-                            '<li><a class="hijoSUbb" id="proteinass" href="./index.html#proteinass">Proteínas</a></li>'+
-                            '<li><a class="hijoSUbb" id="carbohidratoss" href="./index.html#carbohidratoss">Carbohidratos</a></li>'+
-                            '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
-                            '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
-                        '</ul>'+
-                    '</li>'+
-                    '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
-                    '<li><a class="hijoOption">Temas</a>'+
-                        '<ul class="subnav">'+
-                            // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
-                            '<li><a a" href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
-                            
-                            '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
-                            '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
-                        '</ul>'+
-                    '</li>'+
-                '</ul>'+
-            '</nav>'+
-        '</header>'+
+        '<nav class="navbar">'+
+            '<ul class="nav">'+
+                '<li><a href="./index.html" class="hijoOption" id="inicio">Inicio</a></li>'+
+                // '<li><a href="#galeria" class="hijoOption">Menú</a>'+
+                //     '<ul class="subnav">'+
+                //         '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
+                //         '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
+                //         '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
+                //         '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
+                //     '</ul>'+
+                // '</li>'+
+                '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
+                '<li><a class="hijoOption">Temas</a>'+
+                    '<ul class="subnav">'+
+                        // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        '<li><a a" href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        
+                        '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
+                        '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
+                    '</ul>'+
+                '</li>'+
+            '</ul>'+
+        '</nav>'+
+    '</header>'+
 
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section id="cuadrosBroma">'+
@@ -109,14 +108,12 @@ export function ActivarDesactivar2() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar2);
-goCarbohidratos.addEventListener('click',ActivarDesactivar2);
 
 /**************MOSTRAR DATA DE CARBOHIDRATOS***************/
 
 import {carbohidratoss} from "../data/objetoCarbohidrato.js"
 
 let bt_userCredit2 = document.querySelector('#tarjeta1');
-let btCarbohidratos = document.querySelector('#carbohidratoss');
 
 export function crearCarts(){
 
@@ -148,4 +145,3 @@ export function crearCarts(){
 };
 
 bt_userCredit2.addEventListener('click',crearCarts);//<--Este
-btCarbohidratos.addEventListener('click',crearCarts);

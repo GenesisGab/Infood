@@ -1,12 +1,14 @@
 import { bdEstadisticas } from "./data/bdEstadisticas.js";
 
 let datos;
+let nombreAlimento;
 
 export function graficarPie(codigo){
 
   for (let i=0;i<bdEstadisticas.length;i++){
     if(codigo===bdEstadisticas[i].ID){
-            
+           
+      nombreAlimento = bdEstadisticas[i].Alimento
       datos = [
         bdEstadisticas[i].Kcal,
         bdEstadisticas[i].Cal,
@@ -54,15 +56,18 @@ var chart = new Chart(miCanvas,{
   },options:
   
   {
-    // title: {
-    //   display: true,
-    //   text: 'ALIMENTOS EN PORCENAJES'
-    // },
+    title: {
+      display: true,
+      text: nombreAlimento,
+      fontSize: 20,
+      fontColor: '#263D29',
+    },
     
     legend: {
       display: true,
       labels: {
-        fontColor: '#0B1D11'
+        fontColor: '#0B1D11',
+        // fontSize: 11,
       },
       position: 'top'
       }

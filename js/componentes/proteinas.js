@@ -1,5 +1,4 @@
 var activarse = document.getElementById("tarjeta0");
-var activarseEN = document.querySelector('#proteinass');
 
 //FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
 export function ActivarDesactivar() {    
@@ -104,7 +103,6 @@ export function ActivarDesactivar() {
 
 /* EVENTO */
 activarse.addEventListener('click', ActivarDesactivar);
-activarseEN.addEventListener('click',ActivarDesactivar);
 
 
 /**************MOSTRAR DATA DE PROTEÍNAS***************/
@@ -112,7 +110,6 @@ activarseEN.addEventListener('click',ActivarDesactivar);
 import {proteinass} from "../data/objetosProteinas.js";
 
 let bt_userCredit2 = document.querySelector('#tarjeta0');
-let bt_userMenu = document.querySelector('#proteinass');
 export function crearCarts(){
 
     //VARIABLE EN DONDE VA A COLOCARSE LOS CUADRITOS
@@ -143,4 +140,3 @@ export function crearCarts(){
 };
 
 bt_userCredit2.addEventListener('click',crearCarts);//<--Este
-bt_userMenu.addEventListener('click',crearCarts);

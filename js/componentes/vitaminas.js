@@ -24,30 +24,30 @@ export function ActivarDesactivar4() {
             '<img src="./img/logo.png">'+
         '</div>'+
         '<header>'+
-            '<nav class="navbar">'+
-                '<ul class="nav">'+
-                    '<li><a href="./index.html" class="hijoOption" id="inicio">Inicio</a></li>'+
-                    '<li><a href="#galeria" class="hijoOption">Menú</a>'+
-                        '<ul class="subnav">'+
-                            '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
-                            '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
-                            '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
-                            '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
-                        '</ul>'+
-                    '</li>'+
-                    '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
-                    '<li><a class="hijoOption">Temas</a>'+
-                        '<ul class="subnav">'+
-                            // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
-                            '<li><a href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
-                            
-                            '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
-                            '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
-                        '</ul>'+
-                    '</li>'+
-                '</ul>'+
-            '</nav>'+
-     '</header>'+
+        '<nav class="navbar">'+
+            '<ul class="nav">'+
+                '<li><a href="./index.html" class="hijoOption" id="inicio">Inicio</a></li>'+
+                // '<li><a href="#galeria" class="hijoOption">Menú</a>'+
+                //     '<ul class="subnav">'+
+                //         '<li><a class="hijoSUbb" id="proteinass">Proteínas</a></li>'+
+                //         '<li><a class="hijoSUbb" id="carbohidratoss">Carbohidratos</a></li>'+
+                //         '<li><a class="hijoSUbb" id="lipidoss">Lípidos</a></li>'+
+                //         '<li><a class="hijoSUbb" id="vitaminass">Vitaminas</a></li>'+
+                //     '</ul>'+
+                // '</li>'+
+                '<li><a id="infoodNutri" href="./infoodNutri.html" class="hijoOption">Infood Nutri</a></li>'+
+                '<li><a class="hijoOption">Temas</a>'+
+                    '<ul class="subnav">'+
+                        // '<li><a href="#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        '<li><a a" href="./index.html#broma" class="hijoSUbb">Bromatología</a></li>'+
+                        
+                        '<li><a a" href="./index.html#piramide" class="hijoSUbb">Pirámide</a></li>'+
+                        '<li><a a" href="./index.html#estadisticaGraphic" class="hijoSUbb">Gráfica</a></li>'+
+                    '</ul>'+
+                '</li>'+
+            '</ul>'+
+        '</nav>'+
+    '</header>'+
 
         /* NOMBRE: GÉNESIS - SECCION TABLA*/
         '<section>'+

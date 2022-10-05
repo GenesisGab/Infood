@@ -8,8 +8,8 @@ export function footer (){
     '<section class="integrantes">'+
        '<div class="caja1">'+
             '<h1>Comunicadores graficos</h1>'+
-            '<p>Adriana Alejandra <br> Velásquez Anleú</p>'+
             '<p>Marilis Abigail <br> Escobar Estrada</p>'+
+            '<p>Adriana Alejandra <br> Velásquez Anleú</p>'+
         '</div>'+
         
         '<div class="caja1" id="biologos">'+
@@ -20,9 +20,9 @@ export function footer (){
         
         '<div class="caja1">'+
             '<h1>Desarrolladores</h1>'+
+            '<p>Génesis Gabriel <br> Subuyuj Ramírez</p>'+
             '<p>Kimberly Estephania <br> Hernández Ortiz</p>'+
             '<p>Natali Daniela <br> Marroqin Garrido</p>'+
-            '<p>Génesis Gabriel <br> Subuyuj Ramírez</p>'+
         '</div>'+
     '</section>'+
 
