@@ -109,7 +109,7 @@ export let proteinass = [
     },
     
     {
-        titulo: 'Atun enlatado ',
+        titulo: 'Atun enlatado',
         img: './img/proteinas/atun.png',
         porcion: 100,
         Energía: 108,
